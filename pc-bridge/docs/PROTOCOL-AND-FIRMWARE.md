@@ -16,7 +16,8 @@ firmware image.
 
 **Not yet tested:** using a new, locally generated RSA pair with the same
 signature on a freshly unbound Note Pro; the prepare-only Android path; offline
-reconnect after months or a firmware update; Windows Wi-Fi fast transfer.
+reconnect after months or a firmware update; Note Pro recording download (its
+file list was empty); Windows Wi-Fi fast transfer.
 
 ## Handshake state machine
 
