@@ -23,6 +23,10 @@ User Access Token；JWT 和 Client Secret 都不写入引导 APK。
 一个本地优先的多录音设备工作台。界面采用安静、留白、黑白为主的 PLAUD 式视觉语言，
 但没有复制其品牌素材。录音下载后可以在本机播放，通过硅基流动转录并生成总结，再由用户确认后推送到闪念贝壳 MCP。
 
+PLAUD 功能绕开的是官方 PLAUD App；本 Android 版本仍依赖从官方仓库另行取得的
+`plaud-sdk.aar` 执行底层 BLE。电脑端的独立 RSA／ChaCha 实现位于 [`../pc-bridge`](../pc-bridge/)。
+本次公开研究的实测范围和未验证部分见[中文技术记录](../docs/PLAUD-OWN-APP-RESEARCH-ZH.md)。
+
 ## 当前可用范围
 
 | 设备/能力 | 当前状态 |
@@ -44,7 +48,7 @@ User Access Token；JWT 和 Client Secret 都不写入引导 APK。
 
 ## 使用
 
-1. 安装 `RecorderHub-0.5.0-a1-product-parity-debug.apk`。
+1. 从当前源码构建并安装录音中枢（`versionName 0.6.1`）；公开仓库不附带预填凭据的 APK。
 2. 首页展开设备卡片，点击“添加录音设备”。
 3. PLAUD 首次选择 `plaud-device-auth.portable.json` 并输入一次传输密码；钉钉 A1 首次填写自己设备的 DID、corpId、deviceSecret；飞书录音豆无需配置，直接搜索并连接 D3200。
 4. 在各设备页同步目录或下载录音。钉钉 A1 的设备目录会直接显示在 Files；点开待同步录音即可导入。三种设备的本地录音统一在 Files 中播放、删除和处理。
@@ -69,7 +73,10 @@ https://api.ideashell.cn/ideashell/mcp
 
 ## 构建
 
-需要 JDK 17 与 Android SDK 34：
+需要 JDK 17、Android SDK 34 和 Gradle。先从
+[PLAUD 官方 SDK 仓库](https://github.com/Plaud-AI/plaud-sdk-public)取得
+`sdk/android/plaud-sdk.aar`，放到 `android/app/libs/plaud-sdk.aar`；
+该专有二进制不包含在本开源仓库。然后在 `android/` 目录运行：
 
 ```powershell
 gradle assembleDebug

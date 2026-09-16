@@ -23,6 +23,8 @@ The repository has three parts:
 
 Start with the [step-by-step Note Pro bootstrap case study](pc-bridge/docs/NOTE-PRO-BOOTSTRAP.md),
 then read the [protocol and firmware evidence](pc-bridge/docs/PROTOCOL-AND-FIRMWARE.md).
+For a Chinese narrative of the research and the Android app's SiliconFlow and
+IdeaShell MCP integrations, read [the owner-app case study](docs/PLAUD-OWN-APP-RESEARCH-ZH.md).
 The experimentally tested Android-first route completed a Note Pro BLE bind,
 encrypted credential migration, and two fresh direct Windows connections on
 2026-09-16. The faster “prepare PC credentials without phone BLE” route builds
