@@ -117,9 +117,12 @@ deleted by any of these bootstrap or read-only steps.
 - Two immediate Windows reconnections establish repeatability across sessions,
   not indefinite durability across firmware upgrades, reset, re-binding, or
   changes to PLAUD's signing policy.
-- No Note Pro V1.7.0 firmware image is in the analyzed local corpus. The
-  cryptographic comparison uses a NotePin S V1.2.7 image and a live Note Pro
-  signature; the Note Pro BLE behavior was validated dynamically.
+- A Note Pro V1.7.0 OTA image was subsequently downloaded and compared with
+  NotePin S V1.2.7. It contains the same PLAUD SN-verification public key and
+  explicit signature-verification and ChaCha session code, while its hardware
+  layout differs. This strengthens the cross-model evidence but does not
+  validate first-time PC-only provisioning or Wi-Fi transfer. See the
+  [firmware comparison](../../firmware-research/NOTE-PRO-VS-NOTEPIN-S.md).
 - A cached device signature and RSA private key are sensitive owner credentials
   even though the JWT has expired. Protect migration files accordingly.
 

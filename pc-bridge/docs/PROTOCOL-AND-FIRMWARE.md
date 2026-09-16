@@ -14,6 +14,11 @@ also verified the Note Pro signature over its raw SN. This is cross-model
 cryptographic evidence, but it does not make the NotePin S binary a Note Pro
 firmware image.
 
+**Observed in the Note Pro V1.7.0 firmware:** the same PLAUD SN-verification
+public key, explicit SN signature-verification messages, and RSA/ChaCha session
+code. Its RTL8773DO main image and embedded Wi-Fi OTA layout differ markedly
+from NotePin S. See the [model comparison](../../firmware-research/NOTE-PRO-VS-NOTEPIN-S.md).
+
 **Not yet tested:** using a new, locally generated RSA pair with the same
 signature on a freshly unbound Note Pro; the prepare-only Android path; offline
 reconnect after months or a firmware update; Note Pro recording download (its
@@ -50,13 +55,14 @@ the same credentials through recipient-key encrypted export.
 
 ## Firmware image boundaries
 
-The analyzed proprietary image is a 1,145,048-byte official NotePin S OTA
-package. Its SHA-256 is
+The NotePin S proprietary image is a 1,145,048-byte official OTA package. Its SHA-256 is
 `03a147a3eac77e5e7899b3bbc09483f84719ff683687a620da3ccc3f087ec038`.
 It contains a Realtek AmebaD host OTA image and a smaller slave image. The
 host command handlers and SDK agree on the signature/RSA/ChaCha sequence.
-Source paths and log strings in the image help orient the analysis but are
-not proof that every model or version runs identical code.
+The separately obtained Note Pro V1.7.0 package is 7,632,016 bytes, with
+SHA-256 `493afef5c7efe30fefd26c686e4537493ec652001eb8174e8082cf3aceb23a2e`.
+Its public key and authentication logs corroborate the shared trust root, but
+source paths and log strings do not prove byte-for-byte command parity.
 
 The detailed static notes, parser, and verification script are in the
 `firmware-research` directory of the public bundle. They accept a firmware

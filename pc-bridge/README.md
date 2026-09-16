@@ -82,12 +82,11 @@ can occupy the device at a time.
 
 ## Firmware research and scope
 
-The available local firmware image is **NotePin S V1.2.7**, not Note Pro V1.7.0.
-Its embedded PLAUD public key successfully verified the newly obtained Note Pro
-SN signature. This establishes a shared signature verification key for those
-observations, and the signed message was the raw serial number. The Note Pro
-firmware itself has not been inspected, so device-specific implementation claims
-remain provisional. Firmware binaries, extracted proprietary code, credential
+Both **NotePin S V1.2.7** and **Note Pro V1.7.0** OTA images have now been
+inspected. They have different hardware layouts but the same PLAUD SN-signature
+verification public key. The Note Pro signature verified over its raw serial
+number. See the [firmware comparison](../firmware-research/NOTE-PRO-VS-NOTEPIN-S.md)
+for evidence and limits. Firmware binaries, extracted proprietary code, credential
 files, recordings, and the vendor SDK AAR are not part of the public source tree.
 
 ## Safety defaults
