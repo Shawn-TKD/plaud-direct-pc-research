@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_primary"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/backButton"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:gravity="center_vertical"
+            android:text="‹"
+            android:textColor="@color/black"
+            android:textSize="34sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:fontFamily="sans-serif-light"
+            android:text="选择录音设备"
+            android:textColor="@color/black"
+            android:textSize="38sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="音频保存在本机；转录 API Key 使用 Android Keystore 加密保存。"
+            android:textColor="@color/text_secondary"
+            android:textSize="14sp" />
+
+        <include android:id="@+id/plaudCard" layout="@layout/item_source_plaud" />
+        <include android:id="@+id/dingtalkCard" layout="@layout/item_source_dingtalk" />
+        <include android:id="@+id/feishuCard" layout="@layout/item_source_feishu" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:lineSpacingExtra="3dp"
+            android:text="飞书录音豆 D3200 已支持原生 BLE 直连、设备状态、录音控制、列表、下载解密和删除；无需飞书 App、账号或手动配置密钥。"
+            android:textColor="@color/text_secondary"
+            android:textSize="13sp" />
+    </LinearLayout>
+</ScrollView>

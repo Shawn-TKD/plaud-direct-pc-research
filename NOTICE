@@ -1,0 +1,10 @@
+PLAUD direct-PC research
+
+The Android integration builds on examples from Plaud-AI/plaud-sdk-public,
+licensed under Apache License 2.0. The vendor SDK AAR is obtained separately
+from that upstream project and is not included in this distribution.
+
+Protocol comparisons refer to Kurikara-dev/plaud-note-nb100-re and official
+PLAUD Embedded documentation. The firmware research scripts and notes analyze
+an owner-supplied firmware file; no PLAUD firmware binary or decompiled vendor
+source is distributed here.

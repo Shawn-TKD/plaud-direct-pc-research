@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "plaud-pc-bridge"
+version = "0.1.0"
+description = "Experimental direct-PC BLE bridge for owner-controlled Plaud devices"
+requires-python = ">=3.11"
+dependencies = [
+  "bleak>=0.22,<2",
+  "cryptography>=45,<51",
+]
+
+[project.scripts]
+plaud-pc = "plaud_pc.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

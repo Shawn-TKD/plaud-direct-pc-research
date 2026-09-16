@@ -1,0 +1,7 @@
+{
+  "clientId": "your-partner-client-id",
+  "clientSecret": "your-partner-client-secret",
+  "userId": "a-stable-user-id-you-control",
+  "serialNumber": "881...",
+  "baseUrl": "https://platform-us.plaud.ai/developer/api"
+}
