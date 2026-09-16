@@ -16,9 +16,10 @@ The repository has three parts:
   and place it in `android/app/libs/` before building; it is not redistributed
   here. The app also includes other recorder integrations inherited from the
   working Recorder Hub project.
-- [`firmware-research/`](firmware-research/) — offline parser and analysis notes
-  for an owner-supplied NotePin S V1.2.7 firmware image. No vendor firmware,
-  extracted binary, or decompiled vendor source is published.
+- [`firmware-research/`](firmware-research/) — offline analysis of owner-obtained
+  NotePin S V1.2.7 and Note Pro V1.7.0 firmware, including a
+  [model comparison](firmware-research/NOTE-PRO-VS-NOTEPIN-S.md). No vendor
+  firmware, extracted binary, or decompiled vendor source is published.
 
 Start with the [step-by-step Note Pro bootstrap case study](pc-bridge/docs/NOTE-PRO-BOOTSTRAP.md),
 then read the [protocol and firmware evidence](pc-bridge/docs/PROTOCOL-AND-FIRMWARE.md).

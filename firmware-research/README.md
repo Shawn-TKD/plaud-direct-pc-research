@@ -15,9 +15,10 @@ python scan_thumb.py path/to/owner-supplied.bin --region km4_xip --start 0x0e013
 
 `analysis/` is generated locally and ignored by Git. The parser's layout
 constants and the detailed notes apply to this NotePin S image. They should
-not be applied blindly to Note Pro firmware. The Note Pro V1.7.0 image was
-not available in the analyzed corpus; a live Note Pro signature did verify
-with the PLAUD public key extracted from the NotePin S image.
+not be applied blindly to Note Pro firmware. A separate, locally downloaded
+Note Pro V1.7.0 image has now been compared in
+[the Note Pro comparison](NOTE-PRO-VS-NOTEPIN-S.md). Its firmware binary and
+binary extracts are also omitted from this repository.
 
 `verify_cached_signature.py` accepts a local PC bridge state directory and
 the extracted public key. It prints only key length and which candidate
