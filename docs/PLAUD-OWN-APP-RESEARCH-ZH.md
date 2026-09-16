@@ -1,5 +1,7 @@
 # 绕开官方 App，把自己的 PLAUD 接入自有应用：NotePin S 与 Note Pro 的实验记录
 
+[GitHub 开源项目：源码、协议实验与两款设备的固件研究](https://github.com/Shawn-TKD/plaud-direct-pc-research)
+
 这篇文章记录的是**自有设备的互操作研究**。我们没有破解 PLAUD 的签名私钥，也没有让设备跳过认证。实际做到的是：用 PLAUD 官方开发者流程取得一次设备认可的身份材料，理解并复现设备的加密连接，再由自己的 Android 应用和 Windows 客户端读取录音。Android 应用不依赖官方 PLAUD App；目前仍使用 PLAUD 提供的 SDK AAR 执行底层 BLE。Windows 客户端则自行实现了 BLE、RSA 与 ChaCha 会话。
 
 ## 最终做到了什么
