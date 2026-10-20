@@ -26,3 +26,20 @@ message verified; it does not print the signature, SN, or private key.
 
 See [the analysis record](REVERSE-ENGINEERING.md) for image structure,
 handshake evidence, confidence boundaries, and next research steps.
+
+## USB and WiFi fast-transfer round (2026-10-20)
+
+[USB-WIFI-RE-20261020.md](USB-WIFI-RE-20261020.md) records a second analysis
+round on the same owner-supplied image:
+
+- `usb_disasm.py` — Capstone disassembler helper with literal-pool annotation
+  (resolves XIP/SRAM pointers, function pointers, and log format strings).
+- The USB plug-in handler logic, CDC-ACM/MSC (usbms) mode gating, and the
+  reason a sleeping device fails enumeration with a live data path.
+- The complete BLE application command dispatch table (34 commands) and the
+  indexed WiFi command table (14/15/18/21).
+- The WiFi fast-transfer wire format (8-byte header + JSON frames, per-frame
+  ChaCha20-Poly1305 or AES-GCM with BLE-session keys, WebSocket server on the
+  client side at port 8081), cross-checked against the vendor SDK shipped in
+  our own app build. Decompiled vendor sources stay local and are ignored by
+  Git.
