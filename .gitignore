@@ -27,3 +27,6 @@
 *.pem
 *.keystore
 *.jks
+firmware-research/sdk-wifi-decompiled/
+firmware-research/usb-xrefs.json
+firmware-research/_km4_*.bin
