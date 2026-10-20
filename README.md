@@ -32,6 +32,20 @@ but has not yet been tested on a new device. A direct Windows call to the PLAUD
 SDK API was denied at the service edge on this machine; use a PLAUD-supported
 API path if desktop-only first provisioning is required.
 
+**2026-10-20 update.** A second research round covered the NotePin S USB path
+and the WiFi fast-transfer link; see
+[the USB/WiFi analysis record](firmware-research/USB-WIFI-RE-20261020.md).
+Highlights: the NotePin S enumerates as a CDC-ACM serial device when awake
+(the earlier “descriptor request failed” was cable/state, not charge-only
+hardware), the complete BLE command dispatch tables were recovered from the
+firmware, and the WiFi fast-transfer architecture was confirmed end to end —
+the device opens a hotspot and hands SSID/password to the client over BLE, the
+client runs a WebSocket server on port 8081, and the device connects to it as
+a WebSocket client. The wire format (8-byte header + JSON frames, ChaCha20
+or AES-GCM per-frame encryption keyed from the BLE session) was confirmed
+against the vendor SDK shipped inside our own app build; no vendor source or
+binary is republished here.
+
 This project is an independent interoperability study. PLAUD and product names
 belong to their respective owners. See [`NOTICE`](NOTICE) for source attribution
 and [`LICENSE`](LICENSE) for the source-code license.
