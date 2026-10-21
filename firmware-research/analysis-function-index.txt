@@ -1,0 +1,3355 @@
+NotePin S V1.2.7 KM4 函数索引（自动生成，2917 函数）
+
+== KM4 XIP (0x0E000020): 2316 functions ==
+0x0E000058 (size 312)
+0x0E000190 (size 84)
+0x0E0001E4 (size 492)  | 02X,%02X,%02X,%02X,%02X,%02X
+ ; [KEY I] PMDS_Fx_check_firmware
+ ; _PMDS_RD_NVRAM t_op_Status=%d
+
+0x0E0003D0 (size 64)  | PMDS_Fx_check_firmware fail
+
+0x0E000410 (size 44)
+0x0E00043C (size 280)  | d]=%02X,PMDS_Fx_CFG[%d]=%02X
+ ; _WR_RAM2Flash t_op_Status=%d
+ ; write firmware t_op_Status=%d
+
+0x0E000554 (size 34)
+0x0E000576 (size 74)  | _Fx_stop_run t_op_Status=%d
+ ; uDpAup�t�t�aw0
+0x0E0005C0 (size 60)  | fpG
+0x0E000770 (size 216)
+0x0E000848 (size 196)
+0x0E00090C (size 198)
+0x0E0009D2 (size 186)
+0x0E000F4C (size 848)
+0x0E0013A4 (size 136)  | 
+Exit atcmd_ftest_service!
+
+0x0E00142C (size 136)  | ice
+0x0E001518 (size 222)  | mi_ws_handle_handshake_req: %d, %s
+ ; DiffByTrack = %d, Tx Power = %d
+
+ ; atcmd_ftest_start_service
+0x0E0015F6 (size 92)  | 
+AT Cmd format error!
+
+0x0E001652 (size 58)  | help ; mmand '%s'
+0x0E00168C (size 120)
+0x0E001704 (size 328)  |  WARN]:ftest_rec_stop
+0x0E00184C (size 256)
+0x0E00194C (size 196)
+0x0E001A10 (size 126)  | ATCMD list:
+
+0x0E001A8E (size 38)
+0x0E001AB4 (size 88)
+0x0E001B0C (size 48)
+0x0E001B3C (size 88)
+0x0E001B94 (size 148)
+0x0E001C28 (size 92)  | list:
+
+0x0E001C84 (size 656)
+0x0E001F14 (size 1468)
+0x0E0024D0 (size 228)
+0x0E0025B4 (size 756)  | nd 16-byte kchacha20_block_next ; expand 32-byte kexpand 16-byte kchacha20_block_next ; ha20_block_next
+0x0E0028A8 (size 158)
+0x0E002946 (size 66)  | ly/chacha20.c ; mi_libs/chachapoly/chacha20.c ; len == 128 || key_len == 256
+0x0E002988 (size 782)
+0x0E0030F0 (size 88)
+0x0E003148 (size 56)
+0x0E003180 (size 32)
+0x0E0031A0 (size 64)
+0x0E0031E0 (size 84)
+0x0E003234 (size 84)
+0x0E003288 (size 84)
+0x0E0032DC (size 68)
+0x0E003320 (size 92)  | NSOR] x1 = %d,y1 = %d,z1 = %d,
+
+0x0E0033C6 (size 406)  | AABB ; ] NSA_REG_WHO_AM_I=%02X,res=%d
+ ; NSOR] x = %d,y = %d,z = %d,
+
+0x0E00355C (size 564)  | NSOR] gsensor_init_flag = %d
+ ; G_MOTION_FLAG=%02X,type = %d
+ ; X %02X %02X %02X %02X,res=%d
+
+0x0E003790 (size 64)
+0x0E0037D0 (size 144)
+0x0E003860 (size 142)
+0x0E0038EE (size 522)  | 256-ECB ; AABB ; ] tnt_gsensor_da217_init OK
+
+0x0E003AF8 (size 490)  | ueue size must larger than 0: 
+
+ ; value of '%s' (%d bits) is:
+ ; ueue size must larger than 0: 
+
+
+0x0E003CE2 (size 106)
+0x0E003D4C (size 112)  | ' (%d bits) is:
+
+0x0E003DBC (size 368)  | ensor_secret_char_push = %c
+ ; value of '%s' (%d bits) is:
+ ; ing '%s' (%u bytes)
+
+0x0E003F2C (size 448)  |  (%u bytes)
+ ; wait for ble release wakepin.
+
+ ; %s #%d:
+
+0x0E0040EC (size 446)
+0x0E0042AA (size 354)  |  WARN]:ftest_rec_stop ; N]:ftest_rec_stop
+0x0E00440C (size 520)  |  WARN]:ftest_rec_stop ; N]:ftest_rec_stop
+0x0E004614 (size 428)  | N]:ftest_rec_stop
+0x0E0047C0 (size 60)
+0x0E0047FC (size 272)
+0x0E00490C (size 96)  |  WARN]:ftest_rec_stop ;  WARN]:ftest_rec_stop
+0x0E00496C (size 186)
+0x0E004A26 (size 1390)  |  WARN]:ftest_rec_stop
+0x0E004F94 (size 74)
+0x0E004FDE (size 346)  |  WARN]:ftest_rec_stop ; N]:ftest_rec_stop
+0x0E005138 (size 348)
+0x0E005294 (size 296)  |  WARN]:ftest_rec_stop
+0x0E0053BC (size 500)  | N]:ftest_rec_stop
+0x0E0055B0 (size 134)
+0x0E005636 (size 58)
+0x0E005670 (size 136)
+0x0E0056F8 (size 264)  | check_client_direct_request_ip ; s_receive_udp_packet_handler ; %02x:%02x:%02x:%02x
+
+
+0x0E005800 (size 148)  | 2x:%02x:%02x:%02x:%02x:%02x
+
+
+0x0E005894 (size 224)  |  Error!!!upd_new error 
+
+ ; : start=%d, end=%d, ip=%d
+
+
+0x0E005974 (size 284)  | addr ; ] error: add options fail !!
+ ; :%02x:%02x:%02x:%02x:%02x
+
+
+0x0E005A90 (size 384)  | et_sta_ip: %d
+
+ ;  DHCP_MESSAGE_TYPE_DISCOVER
+
+ ;  DHCP_MESSAGE_TYPE_REQUEST
+
+
+0x0E005C10 (size 1784)  | 2x:%02x:%02x:%02x:%02x:%02x
+
+ ; s_send_offer ; O]:%s DHCP_SERVER_STATE_NAK
+
+
+0x0E006308 (size 416)  |  WARN]:ftest_rec_stop ; O]:%s DHCP_OPTION_CODE_END
+
+
+0x0E0064A8 (size 80)
+0x0E0064F8 (size 344)  | O]:
+dhcps_get_sta_ip: %d
+
+ ; :%02x:%02x:%02x
+
+
+0x0E006650 (size 120)
+0x0E0066C8 (size 164)
+0x0E00676C (size 340)
+0x0E0068C0 (size 208)
+0x0E006990 (size 676)  |  WARN]:ftest_rec_stop
+0x0E006C34 (size 38)
+0x0E006C5A (size 654)  |  WARN]:ftest_rec_stop
+0x0E006EE8 (size 72)
+0x0E006F30 (size 140)
+0x0E007028 (size 224)
+0x0E007108 (size 290)  | 819587110:
+0x0E00722A (size 78)
+0x0E007278 (size 76)
+0x0E0072C4 (size 60)
+0x0E007300 (size 206)
+0x0E0073CE (size 148)
+0x0E007462 (size 798)
+0x0E007780 (size 302)
+0x0E0078AE (size 202)
+0x0E007978 (size 144)
+0x0E007A08 (size 216)
+0x0E007AE0 (size 144)
+0x0E007B70 (size 312)
+0x0E007CA8 (size 72)
+0x0E007CF0 (size 314)
+0x0E007E2A (size 78)
+0x0E007E78 (size 432)
+0x0E008028 (size 856)  |   FAT32    ; O NAME    FAT      ; ocate pbuf to receive packet
+0x0E008380 (size 716)
+0x0E00864C (size 300)
+0x0E008778 (size 144)
+0x0E008808 (size 692)
+0x0E008ABC (size 512)
+0x0E008CBC (size 588)
+0x0E008F08 (size 220)
+0x0E008FE4 (size 56)
+0x0E00901C (size 796)
+0x0E009338 (size 236)
+0x0E009424 (size 36)
+0x0E009448 (size 140)
+0x0E0094D4 (size 120)
+0x0E00954C (size 268)
+0x0E009658 (size 252)
+0x0E009754 (size 620)
+0x0E0099C0 (size 380)
+0x0E009B3C (size 152)
+0x0E009BD4 (size 388)
+0x0E009D58 (size 1666)  | "*+,.:;<=>?[]|
+0x0E00A3DA (size 86)  |    FAT      ;    FAT     
+0x0E00A430 (size 108)
+0x0E00A49C (size 76)
+0x0E00A4E8 (size 208)
+0x0E00A5B8 (size 216)
+0x0E00A690 (size 532)
+0x0E00A8A4 (size 56)
+0x0E00A8DC (size 116)  |  %s(%p) from ISR <<< FAIL >>> 
+
+0x0E00A950 (size 132)  |  %s(%p) from ISR <<< FAIL >>> 
+
+0x0E00A9D4 (size 108)
+0x0E00AA40 (size 312)  | F:CREATE RESULT FILE FAIL!
+ ; %p) from ISR <<< FAIL >>> 
+ ;  FAIL >>> 
+
+0x0E00AB78 (size 286)
+0x0E00AC96 (size 170)
+0x0E00AD40 (size 236)
+0x0E00AE2C (size 526)
+0x0E00B03A (size 122)
+0x0E00B0B4 (size 440)  | t_rec_timeout: Not support yet! ; [MMI_APP WARN]:mat_rec_stop_int
+0x0E00B26C (size 1126)
+0x0E00B6D2 (size 48)
+0x0E00B702 (size 168)
+0x0E00B7AA (size 38)
+0x0E00B7D0 (size 488)
+0x0E00B9B8 (size 600)  | _APP WARN]:ftest_rec_start end ; est_rec_start WRONG mode=%d !!! ;  WARN]:ftest_rec_start mode=%d
+0x0E00BC10 (size 202)
+0x0E00BCDA (size 110)  | [MMI_APP WARN]:ftest_rec_stop
+0x0E00BD48 (size 80)
+0x0E00BD98 (size 56)
+0x0E00BDD0 (size 44)
+0x0E00BDFC (size 60)
+0x0E00BE38 (size 66)
+0x0E00BF80 (size 136)
+0x0E00C008 (size 336)
+0x0E00C158 (size 88)
+0x0E00C1B0 (size 356)  | son_dump.c ; jansson/jansson_dump.c ; jansson_dump.c
+0x0E00C314 (size 100)  | ueue size must larger than 0: 
+
+ ; %s
+
+
+0x0E00C378 (size 1044)  |     : %d
+ ; _stop ; true
+0x0E00C78C (size 40)
+0x0E00C7B4 (size 76)
+0x0E00C800 (size 100)  | l
+
+0x0E00C864 (size 50)
+0x0E00C896 (size 38)
+0x0E00CA1C (size 36)
+0x0E00CA40 (size 76)
+0x0E00CA8C (size 64)
+0x0E00CACC (size 456)
+0x0E00CC94 (size 108)
+0x0E00CD00 (size 60)
+0x0E00CD3C (size 194)  | N]:Recording lock file created: %s ; jansson_load.c ; mi_libs/jansson/jansson_load.c
+0x0E00CDFE (size 46)
+0x0E00CE2C (size 100)  | lex_scan_string ; am_unget ; lex_scan_number
+0x0E00CE90 (size 108)  | e 0x%x ;                  ; lex_scan_number
+0x0E00CEFC (size 228)  | pected token ;                              ; lex_scan_number
+0x0E00CFE0 (size 36)
+0x0E00D004 (size 56)  | length ; lex_scan_number
+0x0E00D03C (size 1400)  | ewline ; _text + lex->saved_text.length ; tive integer
+0x0E00D5B4 (size 816)  | _NUL ; ':' expected ; '}' expected
+0x0E00D8E4 (size 120)  | real number overflow
+0x0E00D95C (size 162)  | ear '%s' ; %s near end of file
+0x0E00DA56 (size 178)
+0x0E00DB08 (size 396)  | pected format character '%c' ; '%c' ; lid UTF-8 %s
+0x0E00DC94 (size 640)  | Expected format 's', got '%c' ;  string ; Unexpected end of format string
+0x0E00DF14 (size 1776)  | cted '}' after '%c', got '%c' ; '%c' ; cted real or integer, got %s
+0x0E00E604 (size 184)  | Unexpected end of format string ; buffer[stream->buffer_pos] == c ; = c
+0x0E00E6BC (size 230)  | Unexpected end of format string ; buffer[stream->buffer_pos] == c ; = c
+0x0E00E7A2 (size 60)
+0x0E00E7DE (size 58)
+0x0E00E818 (size 32)
+0x0E00E838 (size 52)
+0x0E00E86C (size 124)
+0x0E00E8E8 (size 48)
+0x0E00E918 (size 168)  | IbfFOon ; cted null, got %s ; ffer->value + strbuffer->length
+0x0E00E9C0 (size 578)
+0x0E00EC02 (size 68)
+0x0E00EC46 (size 66)
+0x0E00EC88 (size 78)
+0x0E00ECD6 (size 74)
+0x0E00ED20 (size 160)
+0x0E00EDC0 (size 148)
+0x0E00EE54 (size 48)
+0x0E00EE84 (size 126)
+0x0E00EF02 (size 80)
+0x0E00EF52 (size 128)
+0x0E00EFD2 (size 56)
+0x0E00F00A (size 62)
+0x0E00F048 (size 50)
+0x0E00F07A (size 110)  |  I] fuel_gauge_get_init_flag 1
+
+0x0E00F140 (size 92)  | [KEY I] sm_fg_probe init OK
+ ; ,%d
+ ; [KEY I] sm_fg_probe init Fail
+
+0x0E00F19C (size 348)  |  %d-%d, %d-%d, %d-%d, %d,%d
+ ; ,%d
+ ; [KEY I] sm_fg_probe init OK
+
+0x0E00F2F8 (size 172)  | [KEY I] key_task_dec_count: %d
+
+0x0E00F3A4 (size 108)  | ibs/jansson/jansson_strconv.c
+0x0E00F410 (size 610)  |  I] keypad_rec_thread entry
+
+ ; task_record_state_switch %d
+
+
+0x0E00F672 (size 106)  | onv.c
+0x0E00F6DC (size 120)  | [KEY I] pmds_key_i2c_init  
+
+0x0E00F7DA (size 224)  | O]:
+LwIP_DHCP: Release ip
+ ; O]:
+LwIP_DHCP: Release ip
+
+0x0E00F8BA (size 466)  | ) failed on line %d in file %s ; ) failed on line %d in file %s ; tic IP address : %d.%d.%d.%d
+
+0x0E00FA8C (size 60)
+0x0E00FAC8 (size 64)
+0x0E00FB08 (size 36)
+0x0E00FB2C (size 36)
+0x0E00FB50 (size 292)  | nterface %d is initialized
+
+ ; se need not update!
+ ; ain] efuse need not update!
+
+0x0E00FC74 (size 84)
+0x0E00FCC8 (size 44)
+0x0E00FCF4 (size 84)  | mi_ble_handle_record_stop_req
+0x0E00FD48 (size 100)
+0x0E00FDAC (size 44)  | _start_req2:%08d, %d, %d, %d
+0x0E00FDD8 (size 44)
+0x0E00FE04 (size 196)  | onfig_get_privacy_status new %d ; ure_cnf host_features[0]=0x%02X ; _features[0]=0x%02X
+0x0E00FEC8 (size 60)
+0x0E00FF04 (size 104)  | [MMI_APP WARN]:len=%d,offset=%d
+0x0E00FF6C (size 84)
+0x0E00FFC0 (size 56)  | andle fail: cmd = %d, res = %d
+0x0E00FFF8 (size 32)
+0x0E010018 (size 40)
+0x0E010040 (size 172)  | nloaded_ind:uid=%d, result=%d.
+0x0E0100EC (size 192)  | ure_cnf new_feature_data=0x%08X ; N]:mmi_ble_send_new_feature_req ; mi_ble_send_new_feature_start
+0x0E0101AC (size 160)  | e.file_data =%x,f_token_buff=%x
+0x0E01024C (size 148)  | =%d, only_one=%d ; andle_get_sp_key_req: key=%s
+0x0E0102E0 (size 144)  | file_tail_ind: id=%08d, crc=%d
+0x0E010370 (size 152)  | end_chacha_key_pack: %d-%d, %d
+0x0E010408 (size 308)
+0x0E01053C (size 284)  | scene=%d, curr_session_id=%d
+0x0E010658 (size 164)
+0x0E0106FC (size 138)  | mi_ble_send_fota_result_ind: %d
+0x0E010786 (size 54)  | =%04X! fs=%d, recv=%d, retry=%d
+0x0E0107BC (size 116)  | e_name_ftest: name=%s, len=%d
+0x0E010830 (size 124)
+0x0E0108AC (size 156)  | t_ble_name_req: name=%s, len=%d
+0x0E010948 (size 514)  | N]:get_rec_mark_buffer failed ; andle_get_file_req: result=%d ; ording or pause, ignore request
+0x0E010B4A (size 202)  | le_data_crc_result ext crc=%d
+0x0E010C14 (size 124)  | end_scan_rsp_to_spis: res=%d
+0x0E010C90 (size 52)  | t_privacy_req: curr=%d, prev=%d
+0x0E010CC4 (size 160)  | 08d, 0x%08d, [%d, %d), valid=%d
+0x0E010D64 (size 178)  | rec_id=0x%08d, req_id=0x%08d
+0x0E010E16 (size 334)  | test_ind: running=%d, size=%d ; result types =%d,recv_crc=%d ; result types =%d,recv_crc=%d
+0x0E010F64 (size 236)  | get_size =%d,file_cache_size=%d ; le_file_sync_data_req]%d, %d
+0x0E011050 (size 232)  |  =%d,ble_sync_file.file_type=%d ; le_file_end_result]%d, %d, %d ; ze = %d,file_total_size = %d
+0x0E011138 (size 360)  | info_cnf: resume from offset=%d ; offset =%d,size=%d,is_end=%d ; le_type=%d,file_total_size=%d
+0x0E0112A0 (size 508)  | le_send_get_sp_key_cnf: key=%s ; ndshake_req2: refuse_cause=%d ; handshake_cnf: refuse_cause=%d
+0x0E01149C (size 180)  | andle_set_active_req: active=%d ; bt_device_ind: clear_file=%d
+0x0E011550 (size 228)  | ink_broken_handle: %d, rec=%d ; repare_fota_data_req: %d, %d
+0x0E011634 (size 236)  | x%08d, count=%d, only_one=%d ; ]:send_dfu_data open file fail ; x%08d, count=%d, only_one=%d
+0x0E011720 (size 228)  | cord_resume_req: real_scene=%d ;  WARN]:bat %d v;percent = %d ; andle_record_start_req: %d, %d
+0x0E011804 (size 130)  |  WARN]:bat %d v;percent = %d ; cord_resume_req: real_scene=%d ; req: stamp=%08d, timezone=%d-%d
+0x0E011886 (size 58)  | _handle unknown event: %08d
+
+0x0E0118C0 (size 138)  | le_handle_findmy_factroy_reset
+0x0E01194A (size 128)  | le_is_working: send_list > 0
+0x0E0119CA (size 276)  | e_fota_push_ind: recv_size=%d
+0x0E011ADE (size 102)  | ackage_data err: ready for poff
+0x0E011B44 (size 356)  | rivacy=%d, udisk=%d, key=%d,%d ; es_to_app: fmi_token_exist=%d ; es_to_app: http_token_exist=%d
+0x0E011CA8 (size 80)
+0x0E011CF8 (size 132)  | ota_online_timeout: %d, %d-%d
+0x0E011D7C (size 132)  | mi_ble_send_storage_volume_cnf
+0x0E011E00 (size 144)  | ackage: empty_type=%d, ret=%d
+0x0E011E90 (size 152)  | _head_ind: id=%08d, status=%d
+0x0E011F28 (size 40)
+0x0E011F50 (size 168)
+0x0E011FF8 (size 244)  | mi_ble_is_working: cmd_requring ; mi_ble_is_working: spim_is_busy ; r=%c%04d-build:%s-%s, bat=%d
+0x0E0120EC (size 62)
+0x0E01212A (size 342)  |  : send_index=%d, timestamp=%d ; a offset=%d, len=%d, read=%d
+0x0E012280 (size 208)
+0x0E012350 (size 104)
+0x0E0123B8 (size 84)  | d_disconn_ind_to_spis res=%d
+0x0E01240C (size 48)
+0x0E01243C (size 96)  | le_ble_status_handle: %d %s %s
+0x0E01249C (size 212)  | epare_dfu_ind_to_spis res=%d
+0x0E012570 (size 308)  | session=%08d, start=%d, res=%d ; =%d, session=%08d, result=%d
+0x0E0126A4 (size 496)  | ush_ind: %d, %d, from=%c%04d ; , file=%d, recv=%d, result=%d. ; ta_push_ind: no storage = %d
+0x0E012894 (size 148)  | N]:[TNT]:recv test data : %d
+0x0E012928 (size 92)
+0x0E012984 (size 116)  |  WARN]:mmi_ble_conn_ind_timeout
+0x0E0129F8 (size 100)  | dmy:action=%d,value=%d,old=%d
+0x0E012A5C (size 60)
+0x0E012A98 (size 172)  | ble_name_cnf: name=%s, len=%d ; nt_config_get_privacy_status %d ; event_to_modem event_id=%d.=%d.
+0x0E012B44 (size 82)  | _batt_status_ind]%d, %d, %%%d.
+0x0E012B96 (size 248)  | mi_ble_handle_stop_file_ind: %d
+0x0E012C8E (size 82)  | wer_state_ind_to_spis res=%d
+0x0E012CE0 (size 84)  | etting_rsp type=%d, value=%d
+0x0E012D34 (size 92)  | RT SEND=%d, PACK=%d DR = %d
+
+0x0E012D90 (size 268)  | ta_data_handle: uid=%d, len=%d ; _APP WARN]:exit_fota_process ; ackage_data err. finish_handled
+0x0E012E9C (size 356)  | eq: id=%08d, start=%d, end=%d ; t_ble_name_req: name=%s, len=%d ; file system is not available
+0x0E013000 (size 736)  | le_fota_check_result: %c%04d ; d action=%d, type=%d, value=%d
+0x0E0132E0 (size 64)
+0x0E013320 (size 120)  | N]:capacity=%d/%d,forced=%d.
+0x0E013398 (size 82)  | spis result=%d, name=%s, len=%d
+0x0E0133EA (size 74)  | result=%d, type=%d, action=%d
+0x0E013434 (size 44)  | md_post fail, ignore this time
+0x0E013460 (size 48)
+0x0E013490 (size 76)  | , connected=%d handshaked=%d
+0x0E0134DC (size 104)  | nd=%d, start=%d, remain-ms=%d
+0x0E013544 (size 122)  | end_set_active_cnf: active=%d
+0x0E0135BE (size 54)
+0x0E0135F4 (size 264)  | st result=%d, name=%s, len=%d ; , name=%s, len=%d
+0x0E0136FC (size 64)
+0x0E01373C (size 132)
+0x0E0137C0 (size 88)  | us_req: led_status error = %d
+0x0E013818 (size 3212)  | 31: segment=%d total=%d recv=%d ; end_handshake_cnf: binded=%d ; 31: cmd=%04X len=%d offset=%d
+0x0E0144A4 (size 100)  | _APP WARN]:mmi_rec_is_running
+0x0E014508 (size 400)  | , old_token=%s, new_token=%s. ; le_send_wifi_open_ind ; nsfering=%d, id=%08d, [%d-%d)
+0x0E014698 (size 136)  |  WARN]:mmi_ble_deauth_from_wifi ; x%08d, count=%d, only_one=%d
+0x0E014720 (size 1868)  | send_fmi_token read size error! ; read_fmi_token_req send fail ;  WARN]:MMI_EVENT_BLE_DEPAIR_REQ
+0x0E014E6C (size 48)
+0x0E014E9C (size 46)
+0x0E014ECA (size 62)  | N]:send_fota_packages_req: %d
+0x0E014F08 (size 208)  | hake_manual_confirm token=%s
+0x0E014FD8 (size 72)
+0x0E015020 (size 84)
+0x0E015188 (size 80)
+0x0E0151D8 (size 132)  | [MMI_APP WARN]:re handshak...
+0x0E01525C (size 112)
+0x0E0152CC (size 104)  | ack unknown interrput evnent!
+0x0E015334 (size 148)
+0x0E0153C8 (size 192)  | TNT] BUILD_HANDSHAKE: sends=%d ; [MMI_APP WARN]:spim_port_deinit
+0x0E015488 (size 172)  |  WARN]:[TNT] SLAVE_RESET: %d ; nt_spim_reset_spi_frequency: %d
+0x0E015534 (size 136)  |  WARN]:[TNT] SLAVE_RESET: %d ; N]:[TNT] SLAVE_RESET: %d ; _APP WARN]:tnt_spim_spi_timeout
+0x0E0155BC (size 112)
+0x0E01562C (size 106)
+0x0E015696 (size 80)
+0x0E0156E6 (size 182)  | OST: m_sseq=%d, s_sseq=%d
+0x0E01579C (size 284)  |  BUILD_HANDSHAKE: sends=%d
+0x0E0158B8 (size 68)  | _APP WARN]:[TNT]sent_list = %d
+0x0E0158FC (size 392)  |  timeout before got fin ind! ; _APP WARN]:tnt_spim_eint_reinit ;  WARN]:[TNT] SLAVE_RESET: %d
+0x0E015A84 (size 1008)  | TNT] BUILD_HANDSHAKE: sends=%d ; GE LOST: m_sseq=%d, s_sseq=%d ; TNT] BUILD_HANDSHAKE: sends=%d
+0x0E015E74 (size 112)  | [MMI_APP WARN]:tnt_spim_init ; tnt_spim_slave_has_data = %d ; _APP WARN]:[TNT]send_list = %d
+0x0E015EE4 (size 92)
+0x0E015F40 (size 82)
+0x0E015F92 (size 114)  | ute: p_cntx->tx_buf != NULL!
+0x0E016004 (size 56)
+0x0E01603C (size 200)  | tnt_wait_handshake_timeout %d
+ ;  open backup config file: %d ; st result=%d, name=%s, len=%d
+0x0E016104 (size 564)  | d to open app config file: %d ; nvalid, loading default config ; onfig data length too large: %u
+0x0E016338 (size 60)  | st result=%d, name=%s, len=%d
+0x0E016374 (size 140)  | default config ; N]:load default config ; _APP WARN]:load default config
+0x0E016400 (size 652)  |  write app config: %d, bw: %u ; failed, fallback to plaintext ; ]:Failed to save backup config
+0x0E01668C (size 88)  | tnt_wait_handshake_timeout %d
+ ; ]:Failed to save main config ; d to read app config data: %d
+0x0E0166E4 (size 484)  | CRC mismatch: 0x%08X, 0x%08X ; tnt_wait_handshake_timeout %d
+ ; nfig not binded, skip migration
+0x0E0168C8 (size 72)  | w: %u
+0x0E016910 (size 116)  | _db index = %d,data = 0x%08x; ; e_db index = %d,data = 0x%08x;
+0x0E016984 (size 200)  | VRAM_FACTORY_VERSION=%d size=%d
+0x0E016A4C (size 40)
+0x0E016A74 (size 56)
+0x0E016AAC (size 72)
+0x0E016B70 (size 108)
+0x0E016C46 (size 54)  | c_get_asr_package2: %d: %d, %d, %d
+0x0E016C7C (size 198)  | %s
+Serial No.:%s
+ ; s %c%04d@%s %s
+Serial No.:%s
+ ; _APP WARN]:load default config
+0x0E016D42 (size 212)  | config_load_user_rsa_pub_key ok ; config_load_user_rsa_pub_key ok ;  WARN]:unknowned nv version: %d
+0x0E016E16 (size 130)  | config_load_user_rsa_pub_key ok
+0x0E016E98 (size 48)  | config_load_user_rsa_pub_key ok
+0x0E016EC8 (size 88)  | onfig_get_idle_sync_state: %d
+0x0E016F20 (size 86)
+0x0E016F9A (size 62)
+0x0E016FD8 (size 76)
+0x0E017024 (size 112)
+0x0E017094 (size 48)
+0x0E0170C4 (size 144)  | derived, nonce_cnt=%u ; ion key derived, nonce_cnt=%u
+0x0E017154 (size 84)
+0x0E0171A8 (size 100)
+0x0E01720C (size 58)
+0x0E017246 (size 156)  | c_get_asr_package2: %d: %d, %d, %d
+0x0E0172E2 (size 56)
+0x0E01731A (size 34)
+0x0E01733C (size 104)
+0x0E0173A4 (size 74)
+0x0E0173EE (size 82)  | ch to 3.3V to PG EFUSE !!!!!
+0x0E017440 (size 128)  | %08X, backup config CRC: 0x%08X ; 08X, backup config CRC: 0x%08X
+0x0E0174C0 (size 52)
+0x0E0174F4 (size 50)
+0x0E017526 (size 58)
+0x0E017560 (size 48)
+0x0E017590 (size 44)
+0x0E0175BC (size 56)
+0x0E0175F4 (size 36)
+0x0E017618 (size 58)
+0x0E017652 (size 242)  | 3V to PG EFUSE !!!!! ; nt_config_uart_power_init: %d ; need update,but wifi mac error!
+0x0E017744 (size 164)  | 3V to PG EFUSE !!!!! ; [MMI_APP WARN]:efuse is new!
+0x0E0177E8 (size 100)  | nd_auto_powoff_dur_ipc_rtc: %d
+0x0E01784C (size 110)  | [MMI_APP WARN]:key_press_c: %d
+0x0E0178BA (size 76)  | N]:tnt_config_set_ble_name: %s
+0x0E01792A (size 154)
+0x0E0179C4 (size 100)  | %d/%d
+0x0E017A28 (size 82)
+0x0E017A7A (size 58)  | g_send_auto_powoff_dur_ipc: %d
+0x0E017AB4 (size 78)  | efault auto_powoff=%d,val=%d
+0x0E017B02 (size 74)
+0x0E017B4C (size 56)
+0x0E017B84 (size 64)  |  WARN]:key_press_c: %d ,flag=%d
+0x0E017BC4 (size 476)  | N, appdb encryption disabled ; r_rsa_pub_key,rsa data error!!! ; o SN, appdb encryption disabled
+0x0E017DA0 (size 276)  | _key ok ;  ver=%c%04d, SN=%s, binded=%d. ; at.
+
+0x0E017EB4 (size 44)
+0x0E017EE0 (size 56)
+0x0E017F18 (size 74)
+0x0E017F82 (size 88)
+0x0E017FDA (size 98)
+0x0E01803C (size 192)  | n_check: SAVE.SN saved: %d/%d ;  %02X %02X %02X %02X %02X %02X ; n_check: SAVE.SN saved: %d/%d
+0x0E0180FC (size 66)
+0x0E01813E (size 122)  | POFF ; EEP ; EEP
+0x0E0181B8 (size 42)  | WRITE
+0x0E0181E2 (size 36)  | EEP
+0x0E018206 (size 56)  | s,%s ; 21:53:30
+0x0E01823E (size 40)  | FMNARESET ; EEP
+0x0E018266 (size 38)  | EEP
+0x0E01828C (size 284)  | %s,OK,%02X%02X%02X%02X%02X%02X ; 2X%02X%02X%02X%02X
+0x0E0183A8 (size 32)  | d,Fail
+0x0E0183C8 (size 32)  | QCALREAD ; d,Fail
+0x0E0183E8 (size 52)  | d,Fail
+0x0E01841C (size 56)  | QPRE ; EEP
+0x0E018454 (size 200)  | QCALSET ; K,v_len=%d,f_key_loop_max=%d ; modfiy file req time:%d,%s OK
+0x0E01851C (size 96)  | ddr = %s,max addr 0x003fe000
+ ; ,max addr 0x003fe000
+ ; ddr = %s,max addr 0x003fe000
+
+0x0E01857C (size 100)  | QGETUSR ; %s,%d,OK ; QGETUSR
+0x0E0185E0 (size 100)  | SET ; %s,%d,OK ; SET
+0x0E018644 (size 52)  | d,Fail ; e %d,%d
+
+0x0E018678 (size 260)  | ,v_off_time =%d,v_loop_cnt =%d, ; 2X%02X%02X%02X%02X ; SWTID
+0x0E01877C (size 148)  | QPRETHR ; QPRETHR ; QREGSET
+0x0E018810 (size 52)  | LED ; 712-220110
+0x0E018844 (size 236)  | s
+ ; librate,%s ; s
+
+0x0E018930 (size 54)  | ,max addr 0x003fe000
+
+0x0E018966 (size 158)  | ket server<<<<<<<<<<<<<<<<<<
+
+
+
+0x0E018A04 (size 228)  | est: wr/rd success:%d! %d/%d
+
+0x0E018AE8 (size 32)  | ,%d ; EEP
+0x0E018B08 (size 40)
+0x0E018B30 (size 32)  | %s,Error,%s ; EEP
+0x0E018B50 (size 36)  | EEP
+0x0E018B74 (size 60)
+0x0E018BB0 (size 244)  | t_rec_timeout: Not support yet! ; 2X%02X%02X%02X%02X
+0x0E018CA4 (size 344)  |  %02x %02x %02x %02x %02x %02x ;  %02x %02x %02x %02x %02x %02x ; T2:
+0x0E018DFC (size 332)  |  %02x %02x %02x %02x %02x %02x ; _TEXT: ;  WARN]:chachapoly encrypt fail
+0x0E018F48 (size 140)
+0x0E018FD4 (size 68)
+0x0E019018 (size 232)  | r_wps value should only be 0 or 1 ; , networkType:0x%02x
+ ; MEM
+0x0E019100 (size 296)  | K,0 ; ,max addr 0x003fe000
+ ; r_wps value should only be 0 or 1
+0x0E019228 (size 152)  | ,max addr 0x003fe000
+ ; AUTO ; TOP,%s
+0x0E0192C0 (size 36)  | CRASH ; %s,read rtc Fail,%s
+0x0E0192E4 (size 44)  | CRASH
+0x0E019310 (size 280)  | 003fe000
+ ; FLASHWR ; %s,OK,%02X%02X%02X%02X%02X%02X
+0x0E019428 (size 52)  | K,%c%04d ; ,max addr 0x003fe000
+
+0x0E01945C (size 52)  | %s,OK,%c%04d ; ,max addr 0x003fe000
+
+0x0E019490 (size 52)  | 4d-%02d-%02d %02d:%02d:%02d. ; %02d %02d:%02d:%02d.
+0x0E0194C4 (size 32)  | SION ; %s,read rtc Fail,%s
+0x0E0194E4 (size 40)
+0x0E01950C (size 188)  | s_start_test end;test count %d  ; %s,OK,OLD = 0x%08x,NEW = 0x%08x ; loop_cnt =%d,f_key_loop_max=%d
+0x0E0195C8 (size 76)  | VPU ; MIC ; 2X%02X%02X%02X%02X
+0x0E019614 (size 52)  | ION ; ION ; K,%c%d.%d.%d
+0x0E019648 (size 52)  | FWBTIME ; K,v_len=%d,f_key_loop_max=%d ; FWBTIME
+0x0E01967C (size 280)  | %s,OK,%02X%02X%02X%02X%02X%02X ; 2X%02X%02X%02X%02X
+0x0E019794 (size 124)  | 2X%02X ; %s,OK,%02X%02X%02X%02X%02X%02X ; 2X%02X
+0x0E019810 (size 68)  | r_wps value should only be 0 or 1 ; %s,read rtc Fail,%s
+0x0E019854 (size 104)  | r_wps value should only be 0 or 1 ; QCALSET ; NT_G
+0x0E0198BC (size 64)  | ,OK ; %s,read rtc Fail,%s
+0x0E0198FC (size 72)  | AIT 1S ; AIL
+ ; AIT 1S
+0x0E019944 (size 72)  | %d,f_key_loop_max=%d ; K,v_len=%d,f_key_loop_max=%d ; %d,f_key_loop_max=%d
+0x0E01998C (size 216)  | AUTO ; d = %d + (%d) ; BUZZER
+0x0E019A64 (size 48)  | s,%s ; FMI_CRC ; s,%s
+0x0E019A94 (size 56)  | KEN ; %s,read rtc Fail,%s ; KEN
+0x0E019ACC (size 56)  | INFO ; INFO ; EEP
+0x0E019B04 (size 326)  | rite to %s, size=%d ;  to %s, size=%d ; size=%d
+0x0E019C4A (size 86)  | RESW ; %s,OK,%02X%02X%02X%02X%02X%02X ; RESW
+0x0E019CA0 (size 112)  | r_wps value should only be 0 or 1 ; QCALSET ; Fail,%s
+0x0E019D10 (size 110)  | EST ; %s,START ; START
+0x0E019D7E (size 72)  |  > 200 ; ,max addr 0x003fe000
+ ;  > 200
+0x0E019DC6 (size 110)  | librate,%s ; ,max addr 0x003fe000
+ ; 2X%02X%02X%02X%02X
+0x0E019E34 (size 184)  | [MMI_APP WARN]:ftest_rec_stop ;  %s(%p) from ISR <<< FAIL >>> 
+ ; K,%d
+0x0E019EEC (size 130)  | TOP ; %s,OK,%d,%d ; K,%d,%d
+0x0E019F6E (size 54)
+0x0E019FA4 (size 136)  | 2X%02X%02X%02X%02X ; ,max addr 0x003fe000
+
+0x0E01A02C (size 184)
+0x0E01A0E4 (size 54)
+0x0E01A11A (size 118)  | r_wps value should only be 0 or 1 ; QCALSET ; AIL,%d
+0x0E01A190 (size 84)
+0x0E01A1E4 (size 156)  | , networkType:0x%02x
+ ; r_wps value should only be 0 or 1 ; [%d]
+0x0E01A280 (size 116)  | r_wps value should only be 0 or 1 ; , networkType:0x%02x
+ ; EEP
+0x0E01A2F4 (size 156)  | %d + (%d) ; %d + (%d) ; EEP
+0x0E01A390 (size 216)  | CPUF ; KEN ; 200
+0x0E01A468 (size 126)  | ==========================
+ ; ==========================
+ ; ket server<<<<<<<<<<<<<<<<<<
+
+
+
+0x0E01A4E6 (size 82)  | ==================
+ ; ==========
+ ; ==
+
+0x0E01A538 (size 142)  | ,%s ; %s,OK,%02X%02X%02X%02X%02X%02X ; ,%s
+0x0E01A5C6 (size 84)  |  %s(%p) from ISR <<< FAIL >>> 
+ ; N]:write to %s, size=%d ; ,max addr 0x003fe000
+
+0x0E01A61A (size 86)  | QCALSET ; [MMI_APP WARN]:ftest_rec_stop ; =%d,v_loop_cnt =%d,
+0x0E01A670 (size 66)  | K, [%d,%d], [%d] ; K, [%d,%d], [%d] ; %d,%d], [%d]
+0x0E01A6B2 (size 74)  | QCALSET ;  %s(%p) from ISR <<< FAIL >>> 
+ ; EEP
+0x0E01A6FC (size 466)  | ALLOC1 ; ASSERT ; ALLOC10
+0x0E01A8CE (size 134)  | %s,%s,%d ; 2X%02X%02X%02X%02X
+0x0E01A954 (size 92)  | NAME ; %s,OK,%02X%02X%02X%02X%02X%02X ; NAME
+0x0E01A9B0 (size 132)  | %s,Error ; %s,OK,%02X%02X%02X%02X%02X%02X ; %s,Error
+0x0E01AA34 (size 102)  | K,VER:%d.%d.%d ; ,OK ; K,VER:%d.%d.%d
+0x0E01AA9A (size 94)  | AIL,%s ; %s,OK,%02X%02X%02X%02X%02X%02X ; AIL,%s
+0x0E01AAF8 (size 240)  | 2X%02X%02X%02X ; 2X%02X ; 2X%02X%02X%02X
+0x0E01ABE8 (size 34)
+0x0E01AC0A (size 62)  | [MMI_APP WARN]:ftest_rec_stop ; 2X%02X%02X%02X%02X
+0x0E01AC48 (size 36)
+0x0E01AC6C (size 224)  | _APP WARN]:write to %s, size=%d ; 2X%02X%02X%02X%02X ; _APP WARN]:write to %s, size=%d
+0x0E01AD4C (size 66)
+0x0E01AD8E (size 194)  | START ; op_cnt =%d,f_key_loop_max=%d ; DSLEEP
+0x0E01AE50 (size 68)  | BLENAME ; EEP
+0x0E01AE94 (size 48)
+0x0E01AEC4 (size 208)  | nvalid input string format.
+ ; nvalid input string format.
+ ; id input string format.
+
+0x0E01AF94 (size 80)  | ang:500-15000 ; d,Fail,rang:500-15000 ; K,v_len=%d,f_key_loop_max=%d
+0x0E01AFE4 (size 232)  | ion key derived, nonce_cnt=%u ; e_flash_addr_file create fail ; ash_addr_file write data fail
+0x0E01B0CC (size 170)  | 2X,%02X ; %s,Fail,Malloc Fail ; 2X,%02X
+0x0E01B176 (size 332)  | actory_write_sn Fail:p_size=%s ; N]:mmi_factory_write_wifi_mac ; _wifi_mac fial!!!!!! p_size =%d
+0x0E01B2C2 (size 304)  | rd --%s-- FAILED:%d!!! %d/%d
+ ; N]:mmi_factory_write_ble_mac ; _ble_mac fial!!!!!! p_size =%d
+0x0E01B3F2 (size 266)  | actory_write_ble_mac send fail ; _wifi_mac fial!!!!!! p_size =%d ; ry_write_sn Fail:code=%s,sn=%s
+0x0E01B4FC (size 88)  | TART ; _handle_read_fmi_token_req send OK ; %s,STOP
+0x0E01B554 (size 96)  | _handle_read_fmi_token_req send OK ; TART ; RECLOOP
+0x0E01B5B4 (size 88)  | NT_G ; NT_G
+0x0E01B60C (size 108)  | _handle_read_fmi_token_req send OK ; TART ; ALL
+0x0E01B678 (size 132)  | %s,OK, [%d,%d], [%d]
+0x0E01B6FC (size 34)
+0x0E01B71E (size 56)  | mi_led_release_by_external:%d
+0x0E01B756 (size 94)  |  WARN]:mmi_led_power_warring
+0x0E01B7B4 (size 88)
+0x0E01B80C (size 68)
+0x0E01B850 (size 36)
+0x0E01B874 (size 36)
+0x0E01B898 (size 32)
+0x0E01B8B8 (size 76)  | N]:mmi_led_check_off: PARING
+0x0E01B904 (size 64)
+0x0E01B944 (size 120)
+0x0E01B9BC (size 124)  | N]:mmi_led_paring_post_start ; ow power warring return; in ota
+0x0E01BA38 (size 64)
+0x0E01BA78 (size 132)  | N]:mmi_led_hold_by_external:%d
+0x0E01BAFC (size 56)
+0x0E01BB34 (size 44)
+0x0E01BB60 (size 104)
+0x0E01BBC8 (size 116)  | _warring_timerout curr_state=%d
+0x0E01BC3C (size 62)
+0x0E01BC7A (size 42)
+0x0E01BCA4 (size 32)
+0x0E01BCC4 (size 476)  | mi_led_turn_off anime_timer=%x ;  WARN]:mmi_led_resume_on: FOTA ; [MMI_APP WARN]:mmi_led_turn_on
+0x0E01BEA0 (size 216)  | ed_power_warring_loop_timerout
+0x0E01BF78 (size 376)  | mi_led_check_off anime_timer=%x ;  WARN]:mmi_led_check_off: FOTA ; N]:mmi_led_check_off: SECRETLY
+0x0E01C0F0 (size 40)  | ed_resume_off anime_timer=%x
+0x0E01C118 (size 252)  | e_bat_show_ind: POWER WARNING ; pp_handle_bat_volume_ind: %d-%d ; ing=%d,volume=%d,voltage=%d.
+0x0E01C214 (size 276)  | mi_led_resume_on: POWER WARNING ; andle_bat_show_ind: state = %d
+0x0E01C328 (size 108)
+0x0E01C394 (size 104)  | e_bat_volume_ind: POWER WARNING
+0x0E01C3FC (size 52)
+0x0E01C430 (size 80)
+0x0E01C480 (size 80)
+0x0E01C4D0 (size 88)
+0x0E01C528 (size 64)
+0x0E01C568 (size 80)  | : %d
+0x0E01C5B8 (size 148)  | x%08d, count=%d, only_one=%d ; x%08d, count=%d, only_one=%d ; x%08d, count=%d, only_one=%d
+0x0E01C64C (size 68)  | 08d file length is too short
+0x0E01C690 (size 120)  | x%08d, count=%d, only_one=%d
+0x0E01C708 (size 804)  | NTEGRAL MULTIPLED OF 20ms! (%d) ;  WARN]:get sessions base_ymd=%d ;  20ms! (%d)
+0x0E01CA2C (size 728)  | n_file: scene=%d, form=%d, %08d ; ions ; x%08d, count=%d, only_one=%d
+0x0E01CD04 (size 44)  | x%08d, count=%d, only_one=%d
+0x0E01CD30 (size 156)  | ec_check_file1:%d, %08d, %08d ; x%08d, count=%d, only_one=%d
+0x0E01CDCC (size 48)
+0x0E01CDFC (size 56)
+0x0E01CE34 (size 84)  | N]:mmi_rec_del_session %d, %08d
+0x0E01CE88 (size 190)  |  new transform spec for inbound data ; av_duration: read header fail! ;  header wrong: fs=%d, ds=%d!
+0x0E01CF46 (size 138)  | mi_rec_get_fs_total_size: %d ; et_fs_total_size: %d
+0x0E01CFD0 (size 84)  | x%08d, count=%d, only_one=%d ; sr_package2: [%d, %d], [%d, %d]
+0x0E01D024 (size 272)  | n_file: scene=%d, form=%d, %08d ; sessions ; mi_rec_open_file: form=%d, %08d
+0x0E01D134 (size 88)  | x%08d, count=%d, only_one=%d
+0x0E01D18C (size 90)
+0x0E01D1E6 (size 38)
+0x0E01D20C (size 464)  | n_file: scene=%d, form=%d, %08d ; x%08d, count=%d, only_one=%d ; mi_rec_check_file2: %d, %08d
+0x0E01D3DC (size 84)
+0x0E01D430 (size 208)
+0x0E01D500 (size 342)  | r=%d, fsize=%d, max=%d, nrs=%d ; sr_duration: %d is not aligned
+0x0E01D656 (size 116)  | ion key derived, nonce_cnt=%u ; ec_get_fs_free_size: %d, %d, %d ; N]:mmi_rec_get_fs_free_info: %d
+0x0E01D6CA (size 114)  | ion key derived, nonce_cnt=%u ; ec_get_fs_total_size: %d, %d ; N]:mmi_rec_get_fs_free_size: %d
+0x0E01D73C (size 320)  | ion key derived, nonce_cnt=%u ; otal=%d, free=%d, duration=%d ;  [%d, %d], [%d, %d]
+0x0E01D87C (size 40)
+0x0E01D8A4 (size 96)  | ound, do DEPAIR and REMOVE: %d ; ound, do DEPAIR and REMOVE: %d ; open_file
+0x0E01D904 (size 104)
+0x0E01D96C (size 40)  | NTEGRAL MULTIPLED OF 20ms! (%d)
+0x0E01D994 (size 52)  | NTEGRAL MULTIPLED OF 20ms! (%d) ; eate_session_dir: %08d fail!
+0x0E01D9C8 (size 196)  | ion key derived, nonce_cnt=%u ;  WARN]:mmi_findmy_file_del OK ; mi_findmy_create_token_file  OK
+0x0E01DA8C (size 58)
+0x0E01DAC6 (size 122)
+0x0E01DB40 (size 108)  | ion key derived, nonce_cnt=%u
+0x0E01DBAC (size 220)  | eate_token_file write data fail ; ion key derived, nonce_cnt=%u ; ory_file_check fail r_size =%d
+0x0E01DC88 (size 316)  | eate_token_file write data fail ; ion key derived, nonce_cnt=%u ; oken_file_crc read data fail
+0x0E01DDC4 (size 218)  | ion key derived, nonce_cnt=%u ; ory_file_check fail r_size =%d ; y_create_token_file create fail
+0x0E01DE9E (size 130)
+0x0E01DF20 (size 240)  | arton_check: UART ON found: %d ; T,OK ; factory_file_check r_size %d
+0x0E01E010 (size 180)  | e_bat_volume_ind: POWER WARNING ; ion key derived, nonce_cnt=%u
+0x0E01E0C4 (size 1664)  | o %d], showing first 10===
+ ; ion key derived, nonce_cnt=%u ; st_write:open file error===
+
+0x0E01E744 (size 104)
+0x0E01E7AC (size 38)
+0x0E01E7D2 (size 306)  | x%08d, count=%d, only_one=%d ; TEST%
+0x0E01E904 (size 116)  | x%08d, count=%d, only_one=%d
+0x0E01E978 (size 92)  | x%08d, count=%d, only_one=%d
+0x0E01E9D4 (size 68)  | es_int: fileid:%d,totalCnt:%d
+0x0E01EA18 (size 88)  | x%08d, count=%d, only_one=%d
+0x0E01EA70 (size 176)  | mi_rec_normal_start: %d, %d, %d
+0x0E01EB20 (size 364)  | ed up after start failure: %s ; e pause session: %08d too short
+0x0E01EC8C (size 294)  | _APP WARN]:mmi_rec_split_file ; top: st=%d, simul=%d, pause=%d
+0x0E01EDB2 (size 182)
+0x0E01EE68 (size 108)  | ecording lock file created: %s ; _REC_FORM_FIDELITY: %d/%d/%d
+0x0E01EED4 (size 528)  | _store_mem 0: online:%d, %d/%d ; mi_rec_alloc_store_mem 1: %d/%d ; mi_rec_alloc_store_mem 2: %d/%d
+0x0E01F0E4 (size 56)  | N]:plaud_rec_mark_led_on_start
+0x0E01F11C (size 236)  | %x, vpu_boost:%d, mic_gain:%x ; _APP WARN]:mmi rec disk full
+0x0E01F208 (size 276)  | NEW_FEATURE_REC_POINT return
+0x0E01F31C (size 80)
+0x0E01F36C (size 60)
+0x0E01F3A8 (size 188)
+0x0E01F464 (size 88)
+0x0E01F4BC (size 80)
+0x0E01F50C (size 40)
+0x0E01F534 (size 208)  | _handle unknown event: %08d
+ ; s_is_available: free size=%dMB
+0x0E01F604 (size 114)  | ,rec_mark_last_timestamp=%d
+ ;  file after start failure: %d ; _rec_mark_gap_time_is_ok false
+
+0x0E01F676 (size 42)  | _rec_mark_gap_time_is_ok true
+
+0x0E01F6A0 (size 76)  | _rec_mark_led_on_is_running: %d
+0x0E01F6EC (size 114)  | laud_rec_mark_led_on_timeout
+0x0E01F75E (size 58)
+0x0E01F798 (size 1580)  | N]:mmi_rec_start end, CPU=%d ; _available a: free size=%dMB ; n_file: scene=%d, form=%d, %08d
+0x0E01FDC4 (size 96)  | ec_start: realloc store memory!
+0x0E01FE24 (size 1412)  | x%08d, count=%d, only_one=%d ; rt:scene=%d, mode=%d, form=%d ; E_ERROR: ret=%d, head=0x%02X
+0x0E0203A8 (size 414)  | N]:mmi_rec_store_flush: exit
+0x0E020546 (size 198)  | _store_task
+0x0E02060C (size 112)  | N]:mmi_rec_store_flush: entry ; c_store (fil=%d) buf not empty!
+0x0E02067C (size 112)  |  WARN]:mmi_rec_start_store_task ; turn
+0x0E0206EC (size 82)
+0x0E02073E (size 62)  | tnt_switch_handle_update_ind %x
+0x0E02077C (size 132)
+0x0E020828 (size 88)  | laud encrypt data error: %d-%d
+0x0E020880 (size 64)
+0x0E0208C0 (size 56)  |  m=%s, app=%d
+0x0E0208F8 (size 156)  | _from_isr: event lost:%08X
+ ; er disk driver to FATFS fail.
+0x0E020994 (size 340)  | t fres: %d; need format = %d ; _from_isr: event lost:%08X
+ ; _APP ERR]:f_mount error: %d-%d
+0x0E020AE8 (size 136)  | _post %08X: queue is not ready.
+0x0E020B70 (size 92)
+0x0E020BCC (size 614)  | o_test_ind_handle only_run_one
+ ; _cnt 1
+ ; ion key derived, nonce_cnt=%u
+0x0E020E32 (size 142)  |  WARN]:record_loop_task_thread ; mi_app_rec_loop_test_key_press ; op_task_init
+0x0E020EC0 (size 204)  | p_event_post: event lost:%08X
+ ; vent_post: queue is not ready. ;  is not ready.
+0x0E020F8C (size 148)  | vent_post_delay_ind: delay=%dms ; sr %08X: queue is not ready.
+0x0E021020 (size 52)
+0x0E021054 (size 240)  | pp_rec_loop_test_key_release
+0x0E021144 (size 408)  | _changed: CHARGER=%d changed!!! ;  WARN]:bat %d v;percent = %d ; cord_resume_req: real_scene=%d
+0x0E0212DC (size 56)  | t_delay: post timer FAILED!!!
+0x0E021314 (size 56)  | check:p=%d,c=%d, m=%s, app=%d
+0x0E02134C (size 76)  | N]:mmi_record_loop_task_init ; _handle unknown event: %08X
+
+0x0E021398 (size 1400)  | event_handle: unkown event: %d ; tamp=%d, rec_key_press_time=%d ; unexpectedly, restart record
+0x0E021910 (size 104)  | timer_stop: find fail! %08X!
+0x0E021978 (size 92)  | OFF
+0x0E0219D4 (size 160)
+0x0E021A74 (size 178)  | n altered timer=%x: %08X, %08X ; app_timer_init!
+0x0E021B26 (size 90)  | _APP WARN]: mmi_app_timer_init! ; _handle unkown timer: 0x%08X!
+0x0E021B80 (size 36)
+0x0E021BA4 (size 124)  | nt_handle unknown event: %08X
+ ; _APP WARN]:usb_eint: Plug Out.
+0x0E021C20 (size 44)
+0x0E021C4C (size 48)
+0x0E021C7C (size 800)  | _APP WARN]:usb vcom start .... ; [MMI_APP WARN]:usb vcom stop. ; sb_plug_in_callback: Plug In.
+0x0E021F9C (size 172)  | _APP WARN]:usb_eint: Plug In. ; N]:USB plugout...usbms stop. ; _APP WARN]:usb charging stop.
+0x0E022048 (size 216)  | back: Plug Out , wakeup_cfg=%d ;  USB_EINT_PORT is NOT HIGH!!!
+0x0E022120 (size 56)
+0x0E022158 (size 276)  | er_timeout find timer fail!
+ ; mi_udisk_event_handle: %08X
+
+0x0E02226C (size 44)
+0x0E022298 (size 38)
+0x0E0222BE (size 58)
+0x0E0222F8 (size 78)
+0x0E022346 (size 36)
+0x0E02236A (size 106)  | vent: %08X
+ ; le unknown event: %08X
+ ; handle unknown event: %08X
+
+0x0E0223D4 (size 128)  | nd_pdu -- ws_sendBinary FAILED!
+0x0E022454 (size 48)
+0x0E022484 (size 40)
+0x0E0224AC (size 96)  | mi_ws_send_hello_ind: res=%d
+0x0E02250C (size 86)  | _APP WARN]:mmi_ws_handle_poff
+0x0E022562 (size 204)  | mi_ws_handle_log_req:json=%s ; ndle_log_req:json=%s ; dshake_req: token=%s, stamp=%d
+0x0E02262E (size 212)  | n":%u,"status":%d} ; mi_ws_handle_log_req:json=%s ; s":%d}
+0x0E022702 (size 282)  | d scene=%d ;  WARN]:mmi_ble_send_new_feature_start ; top_req: session=%08d scene=%d
+0x0E02281C (size 256)  | d: cmd=%d, code=%d ; mon_error_ind: cmd=%d, code=%d ; hake wrapup
+0x0E02291C (size 244)  | d: cmd=%d, code=%d ; mon_error_ind: cmd=%d, code=%d ; hake wrapup
+0x0E022A10 (size 520)  | th: %d, out_left: %d ;  WARN]:mmi_ble_send_new_feature_start ; d: cmd=%d, code=%d
+0x0E022C18 (size 326)  | dshake_req: %d, %s
+ ; s_handle_handshake_req: %d, %s
+ ; cted
+0x0E022D5E (size 258)  | ssage! ; cted ; s_send_hello_ind: %d count=%d
+0x0E022E60 (size 108)  | ata: send done
+0x0E022ECC (size 40)  | s_handle_log_req: operate=%d
+0x0E022EF4 (size 114)  | s_handle_poff ; red while has pending message!
+0x0E022F66 (size 166)  | vent: %08X
+ ; ndle_log_req:json=%s ; mi_ws_send_tips Fail: %d / %d
+
+0x0E02300C (size 132)  | N]:mmi_ws_send_ping: %d, %d, %d ; mi_ws_send_stick_tips_ind:%d ; d while has pending message!
+0x0E023090 (size 1244)  | N]:mmi_ws_send_wifi_close_ind ; N]:mmi_ws_send_wifi_close_ind ; _cnf: rsp=%d, curr=%d, count=%d
+0x0E02356C (size 768)  | {"offset":%d} ; ndle_rx_ind: lenght=%d to large ; _rx_ind: hs=%d cmd=%d, size=%d
+0x0E0238A4 (size 106)
+0x0E02390E (size 144)  | D,%s
+0x0E02399E (size 122)  | D,%s
+0x0E023A18 (size 48)  | a trigger: FOTA untriggered! ; D,%s
+0x0E023A48 (size 88)
+0x0E023AA0 (size 96)  | a trigger: FOTA untriggered!
+0x0E023B00 (size 564)  | ite_cache :cannot open file. 
+ ; ite_cache :cannot open file. 
+ ; cache data match, retry=%d 
+
+0x0E023D34 (size 176)
+0x0E023DE4 (size 338)  | a_fw_verify: cannot open file. ; _verify_signature_data success
+0x0E023F36 (size 810)  | D,%s ; _handle_read_fmi_token_req send OK ; TART
+0x0E024260 (size 248)  | D,%s ;  WARN]:
+[FOTA] split_fota %s
+ ; rigger update result: [%d]-%d
+
+0x0E024358 (size 80)  | D,%s ; a_fw_verify: file too short.
+0x0E0243A8 (size 100)  | a trigger: FOTA untriggered!
+0x0E02440C (size 232)  | on failed after 3 retries 
+ ; tabase has been damaged!!!
+ ; on failed after 3 retries 
+
+0x0E0244F4 (size 88)
+0x0E02454C (size 42)
+0x0E024576 (size 108)
+0x0E0245E2 (size 226)
+0x0E0246C4 (size 88)  | tnt_config_get_individual_item
+0x0E02471C (size 190)
+0x0E0247DA (size 126)
+0x0E024858 (size 228)  |  lost:%08X
+ ;  WARN]:mmi_event_process: %08X
+0x0E02493C (size 116)  | vent_post: queue is not ready. ; base has been damaged!!!
+ 
+
+0x0E0249B0 (size 132)  | t_from_isr: queue is not ready. ; m_event_post: event lost:%08X
+
+0x0E024A34 (size 90)  | _from_isr: event lost:%08X
+
+0x0E024A8E (size 54)
+0x0E024AC4 (size 92)  | _handle unknown event: %08X
+
+0x0E024B20 (size 150)
+0x0E024BB6 (size 128)  | rm_timer_init!
+0x0E024C36 (size 86)  | _FRM WARN]:mmi_frm_timer_init! ; _handle unkown timer: 0x%08X!
+0x0E024C8C (size 92)  | N]:mmi_frw_ws_auto_out_restart ; post(%d): queue is not ready.
+
+0x0E024CE8 (size 124)  | N]:mmi_frw_wifi_stop_handle: %d ; _APP WARN]:mmi_frw_ws_auto_out
+0x0E024D64 (size 56)
+0x0E024D9C (size 116)  | _APP WARN]:mmi_app_wss_abort
+0x0E024E10 (size 48)  | %d)
+
+0x0E024E40 (size 164)  | nt_post_delay: NOT SUPPORT YET! ; ent_post: event lost:%08X
+
+ ; post_delay: queue is not ready.
+0x0E024EE4 (size 136)  | F#F"F!f���(j���~�,b�p�
+0x0E024F6C (size 114)  | E] [WSS] RECV error len(%d)
+ ; [WS I] [TNT] mmi_frs_ws_exit
+
+0x0E024FDE (size 38)
+0x0E025004 (size 40)
+0x0E02502C (size 44)
+0x0E025058 (size 42)
+0x0E025082 (size 336)  | mi_frm_ws_conn_server: entry
+ ; mi_frm_ws_conn_server: entry
+ ; N]:mmi_app_wss_abort
+0x0E0251D2 (size 774)  | read entry: st=%d, stoping=%d
+ ; [WS E] Error: none ws client
+ ; I] WS CLOSED: curr=%d, next=%d
+
+0x0E0254D8 (size 78)  | s_conn_server: wss connected
+
+0x0E025526 (size 58)  | heck:conn_tick=%d, delta=%d
+
+0x0E025560 (size 56)
+0x0E025598 (size 36)
+0x0E0255BC (size 36)  | _APP WARN]:mmi_app_sta_abort
+0x0E0255E0 (size 36)  | mmi_frm_timer_stop: find fail!
+0x0E025604 (size 40)  | s_key_handle: switch_mode=%d
+
+0x0E02562C (size 108)  | rm_wsc_handle_msg_cb result=%d
+
+0x0E025698 (size 108)  | rm_wsc_handle_msg_cb result=%d
+
+0x0E025704 (size 136)  | [WS I] mmi_app_idle_check: %d
+ ;  WARN]:mmi_app_sta_connect_ind
+0x0E02578C (size 216)  | ec_start_store_task ; 0x40080560=%x 0x40080568=%x
+ ; :%x 
+
+0x0E025864 (size 108)  | : %x %x 
+ ;  string len:%d
+
+0x0E0258D0 (size 264)  | N]:Failed to alloc decrypt buffer ; [%08x:%08x]------------------
+ ;  transform spec for outbound data
+0x0E0259D8 (size 256)  | 0x40080560=%x 0x40080568=%x
+ ; ws_delay_event
+0x0E025AD8 (size 64)  | OT SUPPORT YET! ; RT YET!
+0x0E025B18 (size 84)  | alarm: %d:%d:%d:%d (%d) 
+ ; mi_ws_handle_handshake_req: %d, %s
+ ; [%08x:%08x]------------------
+
+0x0E025B6C (size 804)  | 0080560=%x 0x40080568=%x
+ ; ring lentg, choose smaller one
+ ; ap write len:%d, string len:%d
+
+0x0E025E90 (size 256)  | [MMI_APP WARN]:efuse is new! ; rmap ; %x 0x40080568=%x
+
+0x0E025F90 (size 100)  | mi_ws_handle_handshake_req: %d, %s
+ ; e flush 
+ ; D MODE HELP ------------------
+
+0x0E025FF4 (size 72)  | D MODE END  ------------------
+
+0x0E02603C (size 256)  | D MODE END  ------------------
+ ; Set Mask:0x%x
+ ; D MODE END  ------------------
+
+0x0E02613C (size 1612)  | x
+ ; ec_start_store_task ; Erase Falsh End
+
+0x0E026788 (size 804)  | 0080560=%x 0x40080568=%x
+ ; ring lentg, choose smaller one
+ ; ap write len:%d, string len:%d
+
+0x0E026AAC (size 232)  | rmap ; %x 0x40080568=%x
+ ; [MMI_APP WARN]:efuse is new!
+0x0E026B94 (size 80)  | : %x %x 
+ ; able 
+
+0x0E026BE4 (size 208)  |  <mask> 
+		 INFO set 157FFF 
+ ; 0x40080560=%x 0x40080568=%x
+ ; WANR
+0x0E026CB4 (size 146)
+0x0E026D46 (size 64)
+0x0E026D86 (size 64)
+0x0E026DC6 (size 114)
+0x0E026E38 (size 68)
+0x0E026E7C (size 52)  | worker queue ; ap_merge
+0x0E026EB0 (size 72)  | worker thread ; heral
+0x0E026EF8 (size 104)
+0x0E026F60 (size 264)
+0x0E027068 (size 160)  | map not found for peripheral
+ ; map not found for peripheral
+
+0x0E027108 (size 48)
+0x0E027138 (size 328)  | wn happened! need to clibrate
+ ; _time error time->tm_year=%d
+
+0x0E027280 (size 52)
+0x0E0272B4 (size 332)  | : sd8564 read time is error!!!
+ ; 64_read_time:%d-%d-%d %d:%d:%d
+
+0x0E027400 (size 160)  | mp:timeinfo %d-%d-%d %d:%d:%d
+ ; _timestamp:%d-%d-%d %d:%d:%d
+
+0x0E0274A0 (size 134)
+0x0E027526 (size 36)
+0x0E02754A (size 62)
+0x0E027588 (size 144)  | N]:Unsupported encryption type.
+0x0E027618 (size 96)  | N]:Unsupported encryption type.
+0x0E027678 (size 276)  | N]:mbedtls_ctr_drbg_seed failed ; ls_entropy_add_source failed ; ocation failed for pcontext.
+0x0E02778C (size 400)  | st result=%d, name=%s, len=%d ; st result=%d, name=%s, len=%d ; sd8564_write_timestamp Fail
+
+0x0E02791C (size 188)  | N]:mbedtls_ctr_drbg_seed failed ; ]:failed to encrypt: -0x%04x ; _APP ERR]:public key is not rsa
+0x0E0279D8 (size 152)  | N]:mbedtls_ctr_drbg_seed failed ; ]:failed to encrypt: -0x%04x ; _APP ERR]:public key is not rsa
+0x0E027BB0 (size 164)  | DAQAB
+-----END PUBLIC KEY-----
+0x0E027CC0 (size 60)
+0x0E027CFC (size 132)
+0x0E027D80 (size 164)
+0x0E027E24 (size 128)
+0x0E027EA4 (size 100)
+0x0E027F08 (size 120)  | s iic] IIC_WaitAck TIMEOUT
+
+
+0x0E0281C0 (size 68)  | TACK OVERFLOW - TaskName(%s)
+
+0x0E028204 (size 68)  | 8800_I2C_read 0x%02x error %d
+
+0x0E028248 (size 106)  | or
+
+0x0E0282B2 (size 82)  | 8800_I2C_write 0x%02x error %d
+
+0x0E028304 (size 84)  | NALOG_CONFIG_ADDR write error
+
+0x0E028358 (size 112)  | ASELINE_CTRL_ADDR write error
+
+0x0E0283C8 (size 112)  | ASELINE_CTRL_ADDR write error
+
+0x0E028438 (size 112)
+0x0E0284A8 (size 112)
+0x0E028518 (size 1064)  | %d
+ ; [KEY I] tnt_qorvo_df8800_init
+ ; error
+
+0x0E028940 (size 64)  | [KEY I] %02x write error %02x
+
+0x0E028980 (size 1304)
+0x0E028E98 (size 52)
+0x0E028ECC (size 60)
+0x0E028F08 (size 216)
+0x0E028FE0 (size 100)
+0x0E0290C4 (size 80)
+0x0E029114 (size 904)  | !!
+ ; !!
+ ; odec reg fail!!
+
+0x0E02949C (size 44)  | p"qK�i�i���
+0x0E0294E8 (size 160)  | p"qK�i�i���
+0x0E029588 (size 468)
+0x0E0297A8 (size 74)
+0x0E0297F2 (size 68)
+0x0E029836 (size 54)
+0x0E02986C (size 40)
+0x0E029894 (size 40)
+0x0E0298BC (size 262)  | 4d-%02d-%02d %02d:%02d:%02d
+
+0x0E0299C2 (size 230)
+0x0E029AA8 (size 60)  | ug: m4 sleeped:[%d] ms..[M4]
+
+0x0E029AE4 (size 132)  | ug: m4 sleeped:[%d] ms..[M4]
+ ; ug: m4 sleeped:[%d] ms..[M4]
+
+0x0E029B68 (size 136)
+0x0E029BF0 (size 172)  | 
+download new firmware failed
+ ; wnload new firmware failed
+
+0x0E029C9C (size 228)  | sum 0x%8x, host checksum 0x%8x
+ ; address space will be upgraded.
+0x0E029D80 (size 240)  | 
+download new firmware failed
+ ; ignature
+0x0E029E70 (size 966)  | ion key derived, nonce_cnt=%u ; header ; arget file %s is not exist.
+
+0x0E02A2C8 (size 746)  | anf ; A image(%08x) checksum ok!!!
+ ; intf
+0x0E02A5B2 (size 160)  | ecksum ok!!!
+ ; intf
+0x0E02A652 (size 216)  | _rtl_vsprintf ; intf
+0x0E02A72A (size 336)  | intf
+0x0E02A87A (size 204)
+0x0E02A946 (size 452)
+0x0E02AB0A (size 116)
+0x0E02AB7E (size 528)
+0x0E02AD8E (size 146)
+0x0E02AE20 (size 152)
+0x0E02AEB8 (size 58)
+0x0E02AEF2 (size 124)
+0x0E02B09C (size 164)
+0x0E02B140 (size 292)  | :IMG2 PSRAM_NS:[0x%x:%d:0x%x]
+
+0x0E02B264 (size 40)
+0x0E02B28C (size 192)
+0x0E02B34C (size 84)
+0x0E02B3A0 (size 460)  | 819587110: ; EL_INFO]:KM4 BOOT REASON: %x 
+
+0x0E02B56C (size 232)
+0x0E02B654 (size 716)  | E_IND_VIO1833 (0 is 1.8V): %x
+
+0x0E02B920 (size 96)  | t 
+ ; up 
+
+0x0E02B980 (size 424)  | 3 (0 is 1.8V): %x
+
+0x0E02BB28 (size 64)
+0x0E02BB68 (size 166)  | blocked because Dev %x  busy
+
+0x0E02BD00 (size 98)
+0x0E02BD62 (size 254)
+0x0E02BE60 (size 468)  | OCPS_SYSIrq_HP Error %x !!!!!
+
+0x0E02C034 (size 344)  | NFO]:ACMD isn't expected !!
+ ; RROR]:Command index error !!
+ ; RROR]:Check pattern error !!
+
+0x0E02C18C (size 108)
+0x0E02C1F8 (size 320)  | ]:Voltage accepted error !!
+ ; RROR]:Send CMD8 error=%d !!
+
+0x0E02C338 (size 364)  | EL_ERROR]:Init FAIL, ret: %d
+ ; RROR]:Send CMD8 error=%d !!
+
+0x0E02C4A4 (size 316)
+0x0E02C5E0 (size 256)  | RROR]:Send CMD8 error=%d !!
+
+0x0E02C6E0 (size 236)
+0x0E02C7CC (size 184)  | EL_ERROR]:Send CMD17 error !!
+
+0x0E02C884 (size 156)  | eady the specified setting.
+
+0x0E02C920 (size 156)  | eady the specified setting.
+
+0x0E02C9BC (size 80)
+0x0E02CA0C (size 1504)  | NFO]:Manufacturing date:%d/%d
+ ; eady the specified setting...
+ ; NFO]:SD card is initialized
+
+0x0E02D020 (size 172)  | ne isn't in the idle state !!
+ ; e isn't in the idle state !
+ ; ]:Allocate buffer error !!
+
+0x0E02D21C (size 428)
+0x0E02D424 (size 256)  |  isn't in the idle state !!
+
+0x0E02D524 (size 190)
+0x0E02D5E2 (size 174)
+0x0E02D690 (size 516)  | DIOH clock ready timeout !
+ ; rr: pTxData=0x%x,  Length=%d
+
+0x0E02D894 (size 820)  | DIOH clock ready timeout !
+
+0x0E02DDD4 (size 344)
+0x0E02DF2C (size 324)  | upport!
+
+0x0E02E198 (size 394)  | upport!
+
+0x0E02E3DA (size 34)
+0x0E02E3FC (size 134)  | EL_ERROR]:Unknown Interrupt 
+ ; %d]usb acm rev:%d:%s.
+ ; EL_ERROR]:Unknown Interrupt 
+
+0x0E02E482 (size 298)  |  Err!!
+
+0x0E02E5AC (size 150)  | known Interrupt 
+
+0x0E02E642 (size 246)  | og UART Task Err!!
+
+0x0E02E738 (size 200)  | KM4 shell
+ ; !!
+ ; ket server<<<<<<<<<<<<<<<<<<
+
+
+
+0x0E02E8D4 (size 110)  |  Err!!
+
+0x0E02E942 (size 94)  | %d, (%d, %d), (%4X, %4X), %4X
+
+
+0x0E02E9A0 (size 88)  | W] fg_read_volt volt=%d(0x%x)
+
+0x0E02E9F8 (size 104)  | d to read DEVICE_ID, ret = %d
+ ;  ret = %d
+ ; fg_check_reg_init_need
+0x0E02EA60 (size 126)  |  not read voltage, ret = %d
+ ; ead_temperature_ex temp_ex=%d
+
+0x0E02EADE (size 170)  | d sm->batt_rsns, rsns = 10mohm
+ ; att_volt = %d,batt_curr = %d
+ ;  not read current, ret = %d
+
+0x0E02EB88 (size 120)  | ould not read OCV, ret = %d
+ ; ead_current curr = %d(0x%x)
+
+0x0E02EC00 (size 122)  | aram Lock
+
+0x0E02EC7A (size 4830)  | ad_word , ret = %d,reg=%02x
+ ; te param_ctrl unlock, ret = %d
+ ;  read FG_OP_STATUS, ret = %d
+
+0x0E02FF58 (size 40)  | = %d
+
+0x0E02FF80 (size 564)  | al_carc ; _id = 0x%x
+ ;  FG_OP_STATUS = 0x%x tick=%d
+
+0x0E0301B4 (size 444)  | ould not read SOC, ret = %d
+ ; ould not read SOC, ret = %d
+ ; =0x%x, ret=%d, i=%d, base=%d
+
+0x0E030370 (size 292)  | %4X, (%4X, %4X), (%d, %d), %d
+
+ ; e probe successfully, SM5602
+ ; ), %d
+
+
+0x0E0305D4 (size 420)  | g_read_soc data=0x%x, soc=%d
+ ; d temperature in , ret = %d
+ ; ead_temperature_in temp_in=%d
+
+0x0E030778 (size 812)  | uel_gauge_work_monitor t = %d
+ ;  = %d
+ ; et = %d, iocv_man_mode = %d
+
+0x0E030AA4 (size 228)  | Failed to Initialize Fuelgauge
+
+0x0E030B88 (size 304)  | d to write SHUTDOWN, ret = %d
+ ; ailed to read CNTL, ret = %d
+ ; p mode
+0x0E030CB8 (size 196)  | ailed to read CNTL, ret = %d
+ ; ailed to write CNTL, ret = %d
+ ; %d,reg = 0x%02x,val = 0x%04x
+
+0x0E030D7C (size 3056)  | gauge_work_monitor
+ ; onitor
+ ; inserted
+
+0x0E03196C (size 332)  | : state(0x%x) is not ready
+
+0x0E031B6C (size 140)
+0x0E031BF8 (size 144)
+0x0E031C88 (size 408)  | DIOH clock ready timeout !
+ ; hBh#��`�pG�h
+0x0E031F24 (size 376)  | netconn ;  socket fail!
+0x0E03209C (size 412)  | i_idx MBED_SPI0 or MBED_SPI1
+0x0E032238 (size 7352)  | bedtls-2.4.0/library/ssl_cli.c ; TLS-RSA-WITH-RC4-128-SHA ; e: %04x
+0x0E033EF0 (size 52)  | bedtls-2.4.0/library/ssl_tls.c ; c() of ssl sub-contexts failed
+0x0E033F24 (size 228)  | client finished ; c() of ssl sub-contexts failed ; => calc  finished tls sha256
+0x0E034008 (size 120)  | c() of ssl sub-contexts failed ; 512 state ; fy tls
+0x0E034080 (size 344)
+0x0E0341D8 (size 36)
+0x0E0341FC (size 36)
+0x0E034220 (size 564)
+0x0E034454 (size 224)  | d result ; c() of ssl sub-contexts failed ; => calc  finished tls sha384
+0x0E034534 (size 124)  | c() of ssl sub-contexts failed ; erify result ; fy tls
+0x0E0345B0 (size 284)  | encrypt_buf ; c() of ssl sub-contexts failed ; c() of ssl sub-contexts failed
+0x0E0346CC (size 172)  | c() of ssl sub-contexts failed ; a384 ; fy tls
+0x0E034778 (size 32)
+0x0E034798 (size 60)
+0x0E0347D4 (size 1716)  | essage ; c() of ssl sub-contexts failed ; tls_md info for %d not found
+0x0E034E88 (size 416)  | et_padding_mode ; c() of ssl sub-contexts failed ; requesting more data than fits
+0x0E035028 (size 320)  | pired ; c() of ssl sub-contexts failed ; ecv(_timeout)
+0x0E035168 (size 1368)  | ound data ; c() of ssl sub-contexts failed ; rite finished
+0x0E0356C0 (size 176)  | <= write record ; , total extension length: %d ; c() of ssl sub-contexts failed
+0x0E035770 (size 144)  | handshake message too short: %d ; c() of ssl sub-contexts failed ;  message
+0x0E035800 (size 192)  | nter would wrap ; c() of ssl sub-contexts failed ; c() of ssl sub-contexts failed
+0x0E0358C0 (size 152)  | ypt_buf ; c() of ssl sub-contexts failed ; tiation
+0x0E035958 (size 2284)  |  record ; c() of ssl sub-contexts failed ; fetch_input
+0x0E036244 (size 184)  | ication data message ; c() of ssl sub-contexts failed ; sage
+0x0E0362FC (size 468)  | k_ctr_renegotiate ; c() of ssl sub-contexts failed ; c() of ssl sub-contexts failed
+0x0E0364D0 (size 836)  |  final free ; c() of ssl sub-contexts failed ; message
+0x0E036814 (size 124)  | d > %d ; c() of ssl sub-contexts failed ; c() of ssl sub-contexts failed
+0x0E036890 (size 304)  | cert ; c() of ssl sub-contexts failed ; bad change cipher spec message
+0x0E0369C0 (size 292)  | pec ; c() of ssl sub-contexts failed ; cipher spec
+0x0E036AE4 (size 314)  | c() of ssl sub-contexts failed ; ished ; c() of ssl sub-contexts failed
+0x0E036CA4 (size 92)  | y message ; c() of ssl sub-contexts failed ;  SSLv3 no_cert
+0x0E036D00 (size 146)  | c() of ssl sub-contexts failed ; mbedtls_ssl_send_alert_message ; c() of ssl sub-contexts failed
+0x0E036D92 (size 56)
+0x0E036DCA (size 80)
+0x0E036E1A (size 50)
+0x0E036E4C (size 252)  | => handshake ; c() of ssl sub-contexts failed ; pup
+0x0E036F48 (size 336)  | er limit reached: renegotiate ; c() of ssl sub-contexts failed
+0x0E037098 (size 168)  | icate ; c() of ssl sub-contexts failed
+0x0E037140 (size 120)  | /ssl_tls.c ; c() of ssl sub-contexts failed ; otiate
+0x0E0371B8 (size 146)  | d after decrypt ; c() of ssl sub-contexts failed ; timer to %d ms
+0x0E03724A (size 86)  | verify ; c() of ssl sub-contexts failed
+0x0E0372A0 (size 272)  | ssage ; c() of ssl sub-contexts failed ; c() of ssl sub-contexts failed
+0x0E0373B0 (size 788)  | e fragmentation not supported ; c() of ssl sub-contexts failed ; bad application data message
+0x0E0376C4 (size 268)  | oing message counter would wrap ; c() of ssl sub-contexts failed ; sage counter would wrap
+0x0E0377D0 (size 208)  | ey usage     :  ; er Only
+0x0E0378CC (size 56)
+0x0E037904 (size 80)  | ssl_handshake
+0x0E037954 (size 84)
+0x0E0379A8 (size 84)
+0x0E0379FC (size 32)
+0x0E037A1C (size 44)
+0x0E037A48 (size 48)
+0x0E037A78 (size 568)  | [MMI_FRM WARN]:last_bat_cent=%d
+0x0E037CB0 (size 380)  | N_DIV!
+ ; %d,R=%d,P=%d/%d,E=%d,N=%d,F=%d
+0x0E037E2C (size 516)  | percent bat_percent = %d,%d,%d ; ttage=%d too low,power off.%d
+ ;  WARN]:adc_value=%d,votltage=%d
+0x0E038030 (size 300)  | percent_update: %%%d , %%%d. ; e:votltage=%d,vol_percent=%d
+0x0E03815C (size 154)  | _cent:nv=%%%d,new=%%%d/%dmv.
+
+0x0E0381F6 (size 174)  | update:*p_value=%d,per_vol=%d ; persent_check last_bat_cent=%d ; battery votltagen = %d mV.
+
+0x0E0382A4 (size 160)  | _APP WARN]:user last_bat_cent ; cord_resume_req: real_scene=%d ; = %x
+
+0x0E03837C (size 56)
+0x0E0383B4 (size 32)
+0x0E0383D4 (size 32)
+0x0E0383F4 (size 272)  | is_power_on_enable: charging=%d ; N]:volt_power_off_count = %d
+0x0E038568 (size 64)
+0x0E0385D0 (size 188)
+0x0E03868C (size 340)  | 1==%d, read_bit_error2==%d
+
+
+0x0E0387E0 (size 390)  | [charger I] YHM2710_init fail
+ ; 710_entry_ship_mode retry=%d
+
+0x0E038966 (size 54)  |  I] tnt_charger_change_mode %d
+
+0x0E03899C (size 308)  | ent_base_votltage:*p_value=%d ; _set_charger_ic_work_status %d
+ ; rger I] YHM2710_init retry=%d
+
+0x0E038AD0 (size 288)  | ent_base_votltage:*p_value=%d ;  I] YHM2710_entry_stop_mode OK
+ ; 710_entry_stop_mode retry=%d
+
+0x0E038BF0 (size 288)  | ent_base_votltage:*p_value=%d ;  I] YHM2710_entry_slow_mode OK
+ ; 710_entry_slow_mode retry=%d
+
+0x0E038D10 (size 256)  | ent_base_votltage:*p_value=%d ;  I] YHM2710_entry_ship_mode OK
+ ; e:*p_value=%d
+0x0E038E86 (size 80)  | r1==%d, read_bit_error2==%d
+
+
+0x0E038EFC (size 68)
+0x0E038F40 (size 64)
+0x0E03900A (size 106)
+0x0E039074 (size 78)
+0x0E0390C2 (size 398)  | [TNT] SRAM: %d, %d; PSRAM: %d
+ ; ket server<<<<<<<<<<<<<<<<<<
+
+
+
+0x0E039250 (size 128)  | yhm2810_read_ID dev_id=0x%02x
+ ; yhm2810_read_ID dev_id=0x%02x
+
+0x0E0392D0 (size 36)  | PSRAM: %d
+
+0x0E0392F4 (size 40)
+0x0E03931C (size 76)
+0x0E039368 (size 100)
+0x0E0393CC (size 92)
+0x0E039428 (size 156)  | t_shock_mask %d
+
+0x0E0394C4 (size 64)
+0x0E039504 (size 46)
+0x0E039532 (size 106)
+0x0E03959C (size 52)
+0x0E0395D0 (size 58)
+0x0E03960A (size 38)
+0x0E039630 (size 32)  | ] tnt_motor_rec_mark_shock %d
+
+0x0E039650 (size 116)
+0x0E0396C4 (size 48)  | t_motor_double_shock_mask %d
+
+0x0E0396F4 (size 136)
+0x0E03977C (size 40)
+0x0E0397A4 (size 56)
+0x0E0397DC (size 60)  | rec_mark_shock_callback %d
+
+0x0E039818 (size 56)  | te error:%d,%d
+0x0E039850 (size 180)  | t_motor_short_shock_mask %d
+ ; t_shock_mask %d
+
+0x0E039904 (size 80)
+0x0E039954 (size 168)  | t_shock_mask %d
+
+0x0E0399FC (size 62)
+0x0E039A3A (size 50)
+0x0E039A6C (size 44)
+0x0E039A98 (size 172)
+0x0E039B44 (size 96)  | ower_state=%d.
+
+0x0E039BA4 (size 48)
+0x0E039BD4 (size 48)  | OFF triggered, just shutdown!
+
+0x0E039C70 (size 178)  |  WARN]:get_wakeup_reason: %x ; _APP WARN]:WAKEUP: RTC wakeup ; N]:WAKEUP: GPIO/EINT %d wakeup
+0x0E039D22 (size 42)  | , wrong param sec = %d!!! 
+ ; d_entry_ship_check_handler
+
+0x0E039D4C (size 260)  | %d,  IPC to KM0: wakeup_cfg:%d ;  OK.
+
+
+0x0E039E50 (size 212)  | _status=0x%08x
+ ; mask %d
+ ; em_suspend:power_state=%d.
+
+0x0E039F24 (size 56)  | _ctl bat_v:%d,vol_percent=%d
+
+0x0E039F5C (size 88)
+0x0E039FB4 (size 68)  |  I] chg_bootup_check Faile.
+
+
+0x0E039FF8 (size 56)  | bounce_ex: ntc check fail!
+ ; stem_backup system hold,reset
+0x0E03A030 (size 132)  | tnt_km0_key_press_ipc_int
+
+ ; pmc_auto_sleep_start Faile.
+
+ ; press_ipc_int
+
+
+0x0E03A0B4 (size 564)  | MNA_UT_gsensor_weakup_callback ; sleep:%d minheap:%d curheap:%d
+ ; eap:%d
+
+0x0E03A2E8 (size 116)  | tnt_pmc_auto_sleep_start OK.
+
+
+0x0E03A35C (size 92)  | attery voltage is too low.
+
+0x0E03A3B8 (size 220)  | set alarm done, sec = %d!!! 
+ ; UNKNOW reason! just shutdown!
+ ; shutdown_or_lighton power OFF!
+
+0x0E03A494 (size 176)  | bat_temp = %d,charge_mode=%d
+
+0x0E03A544 (size 252)  |  I] tnt_board_init_for_boot
+ ;  shutdown_reset=%d, chg=%d!
+ ; set=%d, chg=%d!
+
+0x0E03A640 (size 828)  | src=%d,km0_key_press_flag=%d ;  for ble release wakepin.
+
+ ; esume 2 wakelock_status=0x%08x
+
+0x0E03AB9C (size 36)
+0x0E03ABC0 (size 80)
+0x0E03AC10 (size 52)
+0x0E03AC44 (size 146)  | recursive_rmdir ; t_default_hw_date: now is %d ; e: restore to default time:%d
+0x0E03ACD6 (size 134)  | ]%02d:%02d:%02d, %d secs to go!
+0x0E03AD5C (size 116)
+0x0E03ADD0 (size 320)
+0x0E03AF10 (size 60)
+0x0E03AF4C (size 128)
+0x0E03AFCC (size 48)
+0x0E03AFFC (size 52)
+0x0E03B030 (size 36)
+0x0E03B054 (size 60)
+0x0E03B090 (size 116)
+0x0E03B104 (size 128)  |  WARN]:get sessions base_ymd=%d
+0x0E03B184 (size 56)  | reset_system_backup %d
+
+0x0E03B1BC (size 220)  |  WARN]:get sessions base_ymd=%d ; reset_system_backup %d
+
+0x0E03B298 (size 120)  | _APP ERR]:f_setlabel error: %d
+0x0E03B310 (size 136)  | e: adjust time to last_rec:%d ;  freq=%d, ch=%d, bd=%d, size=%d
+0x0E03B398 (size 232)  | mpty_dir
+0x0E03B480 (size 108)
+0x0E03B4EC (size 124)  | ion key derived, nonce_cnt=%u ;  ERR]:tnt_fs_format fail = %d! ; t_flush_wav_header fail: %d!
+0x0E03B568 (size 72)  | %04d-%02d-%02d %02d:%02d:%02d
+0x0E03B5B0 (size 72)  | rror]tnt_timer_ms_to_tick: %d
+
+0x0E03B5F8 (size 44)
+0x0E03B624 (size 56)  | ]:f_setlabel error: %d
+0x0E03B65C (size 174)
+0x0E03B70A (size 62)
+0x0E03B77C (size 84)
+0x0E03B7F8 (size 32)
+0x0E03B818 (size 48)
+0x0E03B848 (size 120)  | uart_ymodem ; er_tick_to_ms: %d
+
+0x0E03B98C (size 584)  | r 2min
+ ; Create(uart_thread) failed
+
+0x0E03BBD4 (size 156)  | ] start_next_round block= %d
+ ; rror]tnt_timer_tick_to_ms: %d
+ ; oc fail!
+
+0x0E03BD84 (size 856)
+0x0E03C0DC (size 166)
+0x0E03C182 (size 60)
+0x0E03C1BE (size 36)
+0x0E03C23E (size 386)  | !
+
+0x0E03C41C (size 242)  | ]:%s ; it = %d
+ ; %d]usb acm rev:%d:%s.
+
+0x0E03C50E (size 54)
+0x0E03C544 (size 36)
+0x0E03C568 (size 52)
+0x0E03C59C (size 228)
+0x0E03C680 (size 272)
+0x0E03C790 (size 100)
+0x0E03C814 (size 56)
+0x0E03CAD8 (size 234)
+0x0E03CBC2 (size 238)  | CDC ACM Device
+0x0E03CCB0 (size 308)
+0x0E03CE2C (size 82)
+0x0E03CE7E (size 90)
+0x0E03CED8 (size 96)
+0x0E03CF38 (size 464)
+0x0E03D108 (size 100)
+0x0E03D16C (size 60)
+0x0E03D1A8 (size 60)
+0x0E03D1E4 (size 68)
+0x0E03D228 (size 212)
+0x0E03D2FC (size 70)
+0x0E03D342 (size 158)
+0x0E03D3E0 (size 88)
+0x0E03D438 (size 404)
+0x0E03D5CC (size 856)
+0x0E03D924 (size 2192)  | 0123456789AB
+0x0E03E1B4 (size 152)
+0x0E03E298 (size 128)
+0x0E03E318 (size 464)
+0x0E03E4E8 (size 304)
+0x0E03E618 (size 128)
+0x0E03E698 (size 244)  | MSC_BULK_CMD ; %02x%02x%02x%02x%02x%02x%02x
+0x0E03E78C (size 124)  | MSC_BULK_CMD ; MSC_BULK_CMD ; MSC_BULK_CMD
+0x0E03E808 (size 204)
+0x0E03E9D0 (size 64)
+0x0E03EA10 (size 344)
+0x0E03EB68 (size 72)
+0x0E03EBB0 (size 124)
+0x0E03EC2C (size 112)
+0x0E03EC9C (size 56)
+0x0E03ECD4 (size 72)
+0x0E03ED1C (size 64)
+0x0E03ED5C (size 68)
+0x0E03EDA0 (size 56)
+0x0E03EDD8 (size 572)  | pm_set ; pm_set ; ke done
+0x0E03F014 (size 60)
+0x0E03F050 (size 324)  | ]:wifi_start_ap failed! = %d ; auto_channel: auto=%d, real=%d ; _APP ERR]:Wifi off failed = %d
+0x0E03F194 (size 62)  | Send Action Done
+0x0E03F1D2 (size 202)  | _APP WARN]:load default config ;  WARN]:tnt_wifi_ap_start done!
+0x0E03F29C (size 32)
+0x0E03F2BC (size 348)  | c_get_asr_package2: %d: %d, %d, %d ; CLIENT] ERROR: net_connect %d
+ ; N]:tnt_wifi_update_ssid_pwd: %s
+0x0E03F418 (size 52)  | NT] ERROR: ssl_handshake -0x%x
+
+0x0E03F44C (size 104)
+0x0E03F4B4 (size 190)
+0x0E03F572 (size 74)
+0x0E03F5BC (size 280)
+0x0E03F6D4 (size 860)
+0x0E03FA30 (size 64)
+0x0E03FA70 (size 64)
+0x0E03FAB0 (size 92)
+0x0E03FB0C (size 316)  | N]:Recording lock file created: %s ; CLIENT] Use ciphersuite %s
+ ; 
+[WSCLIENT] Use ciphersuite %s
+
+0x0E03FC48 (size 180)  | %s
+ ; wait for ble release wakepin.
+
+ ; _stop
+0x0E03FCFC (size 86)  | ??= ; N]:Recording lock file created: %s
+0x0E03FD52 (size 42)  | ciphersuite %s
+
+0x0E03FE4C (size 84)
+0x0E03FEA0 (size 52)
+0x0E03FF58 (size 460)
+0x0E040124 (size 564)
+0x0E040358 (size 1804)  | 
+Certificate is uninitialised!
+ ; d!
+ ; : %d
+
+0x0E040A64 (size 628)
+0x0E040CD8 (size 236)
+0x0E040DC4 (size 1852)
+0x0E041500 (size 48)
+0x0E041530 (size 88)
+0x0E041588 (size 320)
+0x0E0416C8 (size 80)
+0x0E041718 (size 72)
+0x0E041760 (size 1036)  |  <mask> 
+		 INFO set 157FFF 
+ ; ent_hostname connect start!
+ ;  <mask> 
+		 INFO set 157FFF 
+
+0x0E041B6C (size 572)  | c_get_asr_package2: %d: %d, %d, %d ; ERROR: set SO_SNDTIMEO fail
+
+ ;  <mask> 
+		 INFO set 157FFF 
+
+0x0E041DA8 (size 764)  | dshake ; ad status connecting to %s
+
+ ; s connecting to %s
+
+
+0x0E0420A4 (size 216)  | ghijklmnopqrstuvwxyz0123456789+/HTTP/1.1 %d ; ws_sendData ;  <mask> 
+		 INFO set 157FFF 
+
+0x0E04217C (size 340)  | ame_connect ;  <mask> 
+		 INFO set 157FFF 
+ ; ERROR: set TCP_KEEPINTVL fail
+
+
+0x0E0422D0 (size 272)
+0x0E0423E0 (size 72)
+0x0E042428 (size 84)
+0x0E04247C (size 66)  | sl handshake failed ret(%d)
+
+ ; c tx rx buffer memory fail
+
+
+0x0E0424BE (size 1526)  | hake failed ret(%d)
+
+ ;  <mask> 
+		 INFO set 157FFF 
+ ; %s: ERROR: Read data failed!
+
+
+0x0E042AB4 (size 64)  |  <mask> 
+		 INFO set 157FFF 
+ ; %s: ERROR: Send data faild!
+
+
+0x0E042AF4 (size 364)  | R: Response header is wrong
+
+ ; inary ;  <mask> 
+		 INFO set 157FFF 
+
+0x0E042C60 (size 1036)  | %s: ERROR: Url size exceeded
+
+ ; %s: ERROR: Url size exceeded
+
+ ; %s: ERROR: Url size exceeded
+
+
+0x0E04328A (size 78)
+0x0E0432D8 (size 32)
+0x0E0432F8 (size 134)
+0x0E04337E (size 1602)
+0x0E0439C0 (size 482)
+0x0E043BA2 (size 76)
+0x0E043BEE (size 84)
+0x0E043C42 (size 100)
+0x0E043CA6 (size 82)
+0x0E043CF8 (size 94)
+0x0E043D56 (size 86)  | idn't define the USING_SSL
+
+
+0x0E043DAC (size 84)
+0x0E043E00 (size 52)
+0x0E043E34 (size 48)
+0x0E043E64 (size 96)
+0x0E043EC4 (size 196)
+0x0E043FFC (size 256)
+0x0E0440FC (size 56)
+0x0E044134 (size 152)  |  USING_SSL
+
+
+0x0E0441CC (size 142)
+0x0E04425A (size 118)
+0x0E0442D0 (size 448)
+0x0E044490 (size 54)
+0x0E044610 (size 164)
+0x0E0446B4 (size 452)
+0x0E044878 (size 1960)
+0x0E045020 (size 380)
+0x0E04519C (size 232)
+0x0E045284 (size 444)
+0x0E045440 (size 192)
+0x0E045500 (size 392)
+0x0E045688 (size 488)
+0x0E04594C (size 352)
+0x0E045AAC (size 520)
+0x0E045CB4 (size 200)
+0x0E045D7C (size 404)
+0x0E045F10 (size 4648)
+0x0E0471F0 (size 142)
+0x0E04727E (size 72)  | ep15out ; ep12out
+0x0E0472C6 (size 72)
+0x0E04730E (size 62)
+0x0E04734C (size 80)
+0x0E04739C (size 40)
+0x0E0473C4 (size 54)
+0x0E0473FA (size 94)
+0x0E047458 (size 32)
+0x0E047478 (size 114)
+0x0E0474EA (size 74)
+0x0E047534 (size 748)  | _thread ; dwc_otg_irq_task ; irq_task
+0x0E047820 (size 76)
+0x0E04786C (size 178)  | tpG"
+0x0E04791E (size 126)
+0x0E04799C (size 72)
+0x0E0479E4 (size 188)
+0x0E047AA0 (size 484)
+0x0E047C84 (size 202)
+0x0E047D4E (size 466)
+0x0E047F20 (size 208)
+0x0E048126 (size 514)
+0x0E0488FE (size 80)
+0x0E04894E (size 70)
+0x0E048994 (size 842)
+0x0E048CDE (size 106)
+0x0E048D48 (size 1156)
+0x0E0491CC (size 116)
+0x0E049240 (size 244)
+0x0E049334 (size 304)
+0x0E049464 (size 260)
+0x0E049568 (size 184)
+0x0E049620 (size 144)
+0x0E0496B0 (size 644)
+0x0E049934 (size 2056)
+0x0E04A13C (size 38)
+0x0E04A162 (size 34)
+0x0E04A184 (size 44)
+0x0E04A220 (size 44)
+0x0E04A344 (size 136)
+0x0E04A3CC (size 494)
+0x0E04A5BA (size 162)
+0x0E04A65C (size 316)
+0x0E04A810 (size 254)
+0x0E04A90E (size 90)
+0x0E04A968 (size 58)
+0x0E04A9A2 (size 386)
+0x0E04AB24 (size 172)
+0x0E04ABD0 (size 744)
+0x0E04AEB8 (size 192)
+0x0E04AF78 (size 270)
+0x0E04B0B0 (size 44)  | evice state, gadget.speed=%d
+
+0x0E04B0DC (size 180)
+0x0E04B190 (size 192)  | sC`Ch#� ; `bh"�@R"�lRCC��#C�sc`8�
+0x0E04B30C (size 268)  | hal_rec_get_free_rx_page fail!
+0x0E04B418 (size 80)  | sC`Ch#� ; `bh"�@R"�lRCC��#C�sc`8�
+0x0E04B468 (size 332)
+0x0E04B5B4 (size 52)
+0x0E04B5E8 (size 292)
+0x0E04B70C (size 9390)
+0x0E04DBBA (size 202)
+0x0E04DC84 (size 124)
+0x0E04DD00 (size 72)
+0x0E04DD48 (size 232)
+0x0E04DE30 (size 68)
+0x0E04DE74 (size 248)
+0x0E04DF6C (size 88)
+0x0E04DFC4 (size 126)
+0x0E04E042 (size 46)
+0x0E04E070 (size 184)
+0x0E04E128 (size 78)
+0x0E04E176 (size 914)
+0x0E04E508 (size 228)
+0x0E04E5EC (size 48)
+0x0E04E61C (size 924)
+0x0E04E9B8 (size 112)
+0x0E04EA28 (size 1740)  | KE?8-��������������������h ; WQKE?8-��������������������h ; d^WQKE?8-��������������������h
+0x0E04F0F4 (size 620)  | g>`H`CeIkHq7v4}4v4u7�1�'� �a!M( ; kHq7v4}4v4u7�1�'� �a!M(
+0x0E04F360 (size 948)  | g>`H`CeIkHq7v4}4v4u7�1�'� �a!M(
+0x0E04F714 (size 168)
+0x0E04F7BC (size 184)
+0x0E04F9A2 (size 1070)  | its2pulses
+0x0E04FDD0 (size 2372)  | v4}4v4u7�1�'� �a!M( ; v4}4v4u7�1�'� �a!M(
+0x0E050714 (size 224)
+0x0E0507F4 (size 168)
+0x0E05089C (size 1304)
+0x0E050DB4 (size 1016)
+0x0E0511AC (size 240)
+0x0E05129C (size 352)
+0x0E0513FC (size 216)
+0x0E0516EC (size 1040)  | quant_all_bands ; rleave_hadamard
+0x0E051AFC (size 2420)  | _hadamard
+0x0E052524 (size 120)
+0x0E052678 (size 626)
+0x0E0528EA (size 114)
+0x0E05295C (size 132)
+0x0E0529E0 (size 106)
+0x0E052A4A (size 46)
+0x0E052A78 (size 564)
+0x0E052CAC (size 2960)
+0x0E053990 (size 244)
+0x0E053A84 (size 712)
+0x0E053D4C (size 300)
+0x0E053E78 (size 128)
+0x0E053EF8 (size 312)
+0x0E054030 (size 60)
+0x0E05406C (size 452)  | unquant ; alg_quant
+0x0E054230 (size 248)
+0x0E054328 (size 1580)
+0x0E054954 (size 108)
+0x0E0549C0 (size 56)
+0x0E0549F8 (size 188)
+0x0E054AB4 (size 180)
+0x0E054B68 (size 52)
+0x0E054BF4 (size 106)
+0x0E054CCC (size 548)  | d: (channel) < (kNumChannels)
+0x0E054FA4 (size 156)  | mmon_audio/vad/vad_filterbank.c ; ad_sp.c ; c-vad/common_audio/vad/vad_sp.c
+0x0E055040 (size 424)  | CK failed: (data_length) > (0) ; ad_sp.c
+0x0E0551E8 (size 180)  | ailed: (data_length) <= (240) ; data_out_length) == (data_out)
+0x0E05529C (size 64)  | l_processing/downsample_fast.c ; DCHECK failed: (length) > (0)
+0x0E0552DC (size 64)  | l_processing/downsample_fast.c ; DCHECK failed: (length) > (0)
+0x0E05531C (size 52)  | l_processing/downsample_fast.c ; DCHECK failed: (length) > (0)
+0x0E055350 (size 48)  | l_processing/downsample_fast.c ; DCHECK failed: (length) > (0)
+0x0E055380 (size 48)  | l_processing/downsample_fast.c ; DCHECK failed: (length) > (0)
+0x0E0553B0 (size 52)  | l_processing/downsample_fast.c ; DCHECK failed: (length) > (0)
+0x0E0553E4 (size 216)
+0x0E0554BC (size 56)
+0x0E055A18 (size 152)
+0x0E055AB0 (size 744)  | soc reject, status code: %d
+
+0x0E055D98 (size 64)
+0x0E055DD8 (size 76)
+0x0E055E24 (size 236)
+0x0E055F10 (size 588)
+0x0E05615C (size 1216)  | ocessing/min_max_operations.c
+0x0E05661C (size 548)
+0x0E056840 (size 304)
+0x0E056970 (size 180)
+0x0E056A24 (size 548)  | DiffByTrack = %d, Tx Power = %d
+
+
+0x0E056C48 (size 132)  | sing/min_max_operations.c
+0x0E056CCC (size 242)
+0x0E056DBE (size 78)
+0x0E056E0C (size 916)  | _max_operations.c ; .zf��Ja�h]�+o*7������Z��-
+0x0E0571A0 (size 206)
+0x0E05726E (size 124)
+0x0E0572EA (size 214)
+0x0E0573C0 (size 144)  | .zf��Ja�h]�+o*7������Z��-
+0x0E057450 (size 152)
+0x0E0574E8 (size 164)
+0x0E05758C (size 32)
+0x0E0575AC (size 92)  | econds
+ ; to reconnect ...
+ ; i(F#�
+0x0E057608 (size 32)
+0x0E057628 (size 208)  | available=%d in last 2 seconds
+
+0x0E0576F8 (size 136)
+0x0E057780 (size 132)
+0x0E057804 (size 40)
+0x0E05782C (size 88)
+0x0E057884 (size 98)
+0x0E0578E6 (size 66)
+0x0E057928 (size 104)
+0x0E057990 (size 60)
+0x0E0579CC (size 104)
+0x0E057A34 (size 216)
+0x0E057B0C (size 52)
+0x0E057B40 (size 448)
+0x0E057D00 (size 168)
+0x0E057DA8 (size 228)
+0x0E057E8C (size 36)
+0x0E057EB0 (size 40)
+0x0E057ED8 (size 56)
+0x0E057F10 (size 182)
+0x0E057FC6 (size 126)
+0x0E058044 (size 116)  | pm_set
+0x0E0580B8 (size 116)
+0x0E05812C (size 452)
+0x0E0582F0 (size 92)  | DiffByTrack = %d, Tx Power = %d
+
+
+0x0E05834C (size 268)
+0x0E058458 (size 320)  | ke done ; pm_set
+0x0E058598 (size 80)
+0x0E0585E8 (size 320)
+0x0E058728 (size 128)
+0x0E0587A8 (size 232)
+0x0E058890 (size 160)
+0x0E058930 (size 864)
+0x0E058CF0 (size 168)
+0x0E058D98 (size 132)  | _to_timer
+0x0E058E1C (size 88)
+0x0E058E74 (size 456)  | hlptx|����� ; 48<@dhlptx|����� ; ct, status code: %d
+
+0x0E05903C (size 172)  | _to_timer
+0x0E0590E8 (size 56)
+0x0E059120 (size 68)
+0x0E059164 (size 104)
+0x0E0591CC (size 564)  | DiffByTrack = %d, Tx Power = %d
+
+
+0x0E059400 (size 40)
+0x0E059428 (size 100)
+0x0E05948C (size 160)
+0x0E05952C (size 76)
+0x0E059578 (size 588)  | _to_timer ; DiffByTrack = %d, Tx Power = %d
+
+
+0x0E0597C4 (size 884)  | DiffByTrack = %d, Tx Power = %d
+
+
+0x0E059B38 (size 268)
+0x0E059C44 (size 500)  | _to_timer ; DiffByTrack = %d, Tx Power = %d
+
+
+0x0E059E38 (size 682)  | DiffByTrack = %d, Tx Power = %d
+
+
+0x0E05A0E2 (size 710)  | DiffByTrack = %d, Tx Power = %d
+
+ ; DiffByTrack = %d, Tx Power = %d
+
+
+0x0E05A3A8 (size 692)  | DiffByTrack = %d, Tx Power = %d
+
+
+0x0E05A65C (size 1136)  | DiffByTrack = %d, Tx Power = %d
+
+ ; DiffByTrack = %d, Tx Power = %d
+
+
+0x0E05AACC (size 260)
+0x0E05ABD0 (size 348)
+0x0E05AD2C (size 272)  | DiffByTrack = %d, Tx Power = %d
+
+
+0x0E05AE3C (size 724)  | DiffByTrack = %d, Tx Power = %d
+
+
+0x0E05B110 (size 220)
+0x0E05B1EC (size 572)
+0x0E05B428 (size 144)  | DiffByTrack = %d, Tx Power = %d
+
+
+0x0E05B4B8 (size 52)
+0x0E05B4EC (size 304)  | DiffByTrack = %d, Tx Power = %d
+
+ ;  After Scan Done
+0x0E05B61C (size 584)
+0x0E05B864 (size 484)
+0x0E05BA48 (size 712)
+0x0E05BD10 (size 114)
+0x0E05BD82 (size 634)
+0x0E05BFFC (size 116)
+0x0E05C070 (size 764)  | DiffByTrack = %d, Tx Power = %d
+
+ ; timer ; DiffByTrack = %d, Tx Power = %d
+
+
+0x0E05C36C (size 152)
+0x0E05C404 (size 90)
+0x0E05C45E (size 438)  | DiffByTrack = %d, Tx Power = %d
+
+ ; pm_set ; DiffByTrack = %d, Tx Power = %d
+
+
+0x0E05C614 (size 436)  | pm_set ; DiffByTrack = %d, Tx Power = %d
+
+ ; DiffByTrack = %d, Tx Power = %d
+
+
+0x0E05C7C8 (size 138)
+0x0E05C852 (size 1686)  | DiffByTrack = %d, Tx Power = %d
+
+
+0x0E05CEE8 (size 172)
+0x0E05CF94 (size 124)  |  AP without supported rate!
+
+0x0E05D010 (size 68)
+0x0E05D054 (size 684)  | DiffByTrack = %d, Tx Power = %d
+
+ ; pm_set
+0x0E05D300 (size 224)
+0x0E05D3E0 (size 192)
+0x0E05D4A0 (size 84)
+0x0E05D4F4 (size 188)  |  AP without supported rate!
+
+0x0E05D5B0 (size 342)
+0x0E05D706 (size 94)  | DiffByTrack = %d, Tx Power = %d
+
+
+0x0E05D764 (size 312)  | DiffByTrack = %d, Tx Power = %d
+
+ ; DiffByTrack = %d, Tx Power = %d
+
+
+0x0E05D89C (size 124)
+0x0E05D918 (size 80)  | out supported rate!
+
+0x0E05D968 (size 232)
+0x0E05DA50 (size 154)
+0x0E05DAEA (size 282)
+0x0E05DC04 (size 332)
+0x0E05DD50 (size 994)
+0x0E05E132 (size 384)  |  AP without supported rate!
+
+0x0E05E2B2 (size 150)  | issue_assocreq
+0x0E05E348 (size 356)
+0x0E05E4AC (size 100)
+0x0E05E5B8 (size 82)
+0x0E05E60A (size 216)
+0x0E05E6E2 (size 238)
+0x0E05E7D0 (size 84)
+0x0E05E824 (size 1676)
+0x0E05EEB0 (size 210)
+0x0E05F014 (size 160)  | pm_set
+0x0E05F0B4 (size 292)
+0x0E05F1D8 (size 108)
+0x0E05F244 (size 104)
+0x0E05F2AC (size 220)  | pm_set
+0x0E05F388 (size 160)
+0x0E05F428 (size 116)
+0x0E05F49C (size 188)
+0x0E05F558 (size 220)
+0x0E05F6EC (size 284)
+0x0E05F808 (size 84)
+0x0E05F85C (size 2000)
+0x0E06002C (size 1352)
+0x0E060574 (size 156)
+0x0E060610 (size 424)
+0x0E0607B8 (size 1564)
+0x0E060DD4 (size 276)
+0x0E060EE8 (size 266)
+0x0E060FF2 (size 144)
+0x0E061082 (size 142)
+0x0E061110 (size 120)  | .zf��Ja�h]�+o*7������Z��-
+0x0E061188 (size 424)
+0x0E061330 (size 156)
+0x0E0613CC (size 296)
+0x0E0614F4 (size 50)
+0x0E061526 (size 106)
+0x0E061590 (size 104)
+0x0E0615F8 (size 126)
+0x0E061676 (size 98)
+0x0E0616D8 (size 108)
+0x0E061744 (size 84)
+0x0E061798 (size 312)
+0x0E0618D0 (size 216)
+0x0E0619A8 (size 128)
+0x0E061A28 (size 148)
+0x0E061ABC (size 552)  | ----- --------------------
+ ; x8)
+ ; 0x%x
+
+0x0E061CE4 (size 48)
+0x0E061D14 (size 86)
+0x0E061D6A (size 78)
+0x0E061DB8 (size 108)
+0x0E061E24 (size 104)
+0x0E061E8C (size 132)
+0x0E061F10 (size 102)
+0x0E061F76 (size 172)
+0x0E062022 (size 152)
+0x0E0620BA (size 234)
+0x0E0621A4 (size 44)
+0x0E0621D0 (size 44)
+0x0E0621FC (size 58)
+0x0E062236 (size 38)
+0x0E06225C (size 262)  | e -----------------
+
+0x0E062362 (size 450)
+0x0E062524 (size 130)  | : disable -----------------
+
+0x0E0625A6 (size 290)  | : disable -----------------
+
+0x0E0626C8 (size 112)  | timer
+0x0E062738 (size 138)
+0x0E0627FC (size 36)
+0x0E062820 (size 80)
+0x0E062870 (size 48)
+0x0E0628A0 (size 80)
+0x0E0628F0 (size 144)
+0x0E062980 (size 140)
+0x0E062A0C (size 36)
+0x0E062A30 (size 110)
+0x0E062A9E (size 36)
+0x0E062AC2 (size 256)
+0x0E062BC2 (size 232)
+0x0E062CAA (size 146)
+0x0E062D3C (size 230)
+0x0E062E22 (size 586)
+0x0E06306C (size 296)
+0x0E063194 (size 152)
+0x0E06322C (size 320)  | reject, status code: %d
+
+0x0E06336C (size 56)
+0x0E0633A4 (size 124)
+0x0E063420 (size 100)
+0x0E063484 (size 340)  | addba_retry_timer ; a_retry_timer ; a_retry_timer
+0x0E0635D8 (size 144)
+0x0E063668 (size 330)
+0x0E0637B2 (size 40)
+0x0E0637DA (size 40)
+0x0E063802 (size 178)
+0x0E0638B4 (size 312)
+0x0E0639EC (size 60)
+0x0E063A28 (size 188)
+0x0E063AE4 (size 88)  | DiffByTrack = %d, Tx Power = %d
+
+
+0x0E063B3C (size 90)  | DiffByTrack = %d, Tx Power = %d
+
+
+0x0E063B96 (size 50)
+0x0E063BC8 (size 56)
+0x0E063C00 (size 50)
+0x0E063C32 (size 42)
+0x0E063C5C (size 104)
+0x0E063CC4 (size 52)
+0x0E063CF8 (size 52)
+0x0E063D2C (size 52)
+0x0E063D60 (size 512)  | inlock type %d not support
+
+0x0E063F60 (size 880)
+0x0E0642D0 (size 76)
+0x0E06431C (size 264)
+0x0E064424 (size 156)
+0x0E0644C0 (size 86)
+0x0E064516 (size 126)
+0x0E064594 (size 84)
+0x0E0645E8 (size 128)
+0x0E064668 (size 278)
+0x0E06477E (size 38)
+0x0E0647A4 (size 124)
+0x0E064820 (size 116)
+0x0E064894 (size 212)
+0x0E064968 (size 152)
+0x0E064A00 (size 96)
+0x0E064A60 (size 86)
+0x0E064AB6 (size 250)
+0x0E064BB0 (size 188)
+0x0E064C6C (size 324)
+0x0E064DB0 (size 62)
+0x0E064DEE (size 586)  | event(%d) with cur state(%d)
+ ; event(%d) with cur state(%d)
+ ; event(%d) with cur state(%d)
+
+0x0E065038 (size 116)
+0x0E0650AC (size 120)
+0x0E065124 (size 140)
+0x0E0651B0 (size 76)
+0x0E0651FC (size 652)
+0x0E065488 (size 260)
+0x0E06558C (size 492)  | ]:event(%d) with cur state(%d)
+ ; te(%d)
+
+0x0E065778 (size 144)
+0x0E065808 (size 168)
+0x0E0658B0 (size 168)
+0x0E065958 (size 178)
+0x0E065A0A (size 126)
+0x0E065A88 (size 160)
+0x0E065B28 (size 214)
+0x0E065BFE (size 34)
+0x0E065C20 (size 40)
+0x0E065CD4 (size 1116)  | aptivity_init ; aptivity_init
+0x0E066130 (size 152)
+0x0E0661C8 (size 620)
+0x0E066434 (size 696)
+0x0E0666EC (size 366)
+0x0E06685A (size 220)
+0x0E066936 (size 138)
+0x0E0669C0 (size 456)
+0x0E066B88 (size 576)
+0x0E066DC8 (size 290)
+0x0E066EEA (size 134)
+0x0E066F70 (size 370)
+0x0E0670E2 (size 232)
+0x0E0671CA (size 136)
+0x0E067252 (size 78)
+0x0E0672A0 (size 572)
+0x0E0674DC (size 434)
+0x0E06768E (size 78)
+0x0E0676DC (size 164)
+0x0E067780 (size 126)
+0x0E0677FE (size 68)
+0x0E067842 (size 178)
+0x0E0678F4 (size 138)
+0x0E06797E (size 166)
+0x0E067A24 (size 248)
+0x0E067B1C (size 264)
+0x0E067C24 (size 56)
+0x0E067C5C (size 358)
+0x0E067DC2 (size 158)
+0x0E067E60 (size 556)  | " F�����#B"
+0x0E06808C (size 692)
+0x0E068340 (size 816)
+0x0E0687B8 (size 324)
+0x0E0688FC (size 704)
+0x0E068BBC (size 44)
+0x0E068BE8 (size 64)
+0x0E068C28 (size 40)
+0x0E068C50 (size 100)
+0x0E068CB4 (size 36)
+0x0E068CD8 (size 52)
+0x0E068D0C (size 128)  | @dfhjlnprtvxz|~����������������
+0x0E068D8C (size 48)
+0x0E068DBC (size 52)
+0x0E068DF0 (size 202)
+0x0E068EBA (size 910)
+0x0E069248 (size 46)
+0x0E069276 (size 54)
+0x0E0692AC (size 188)
+0x0E069368 (size 112)
+0x0E0693D8 (size 308)
+0x0E06950C (size 208)
+0x0E0695DC (size 124)
+0x0E069658 (size 118)
+0x0E0696CE (size 278)
+0x0E0697E4 (size 272)
+0x0E0698F4 (size 116)
+0x0E069968 (size 200)
+0x0E069A30 (size 288)
+0x0E069B50 (size 364)
+0x0E069CBC (size 72)
+0x0E069D04 (size 428)
+0x0E069EB0 (size 288)
+0x0E069FD0 (size 236)
+0x0E06A0BC (size 240)
+0x0E06A1AC (size 188)
+0x0E06A268 (size 228)
+0x0E06A34C (size 60)
+0x0E06A388 (size 72)
+0x0E06A3D0 (size 340)
+0x0E06A524 (size 280)
+0x0E06A63C (size 136)
+0x0E06A6C4 (size 188)
+0x0E06A780 (size 70)  | [MMI_APP WARN]:efuse is new!
+0x0E06A7C6 (size 198)
+0x0E06A928 (size 156)
+0x0E06A9C4 (size 104)
+0x0E06AA80 (size 568)  |  only supports group 0~6 !!!
+ ; WIFI MAC: %x:%x:%x:%x:%x:%x
+ ; [MMI_APP WARN]:efuse is new!
+0x0E06ACB8 (size 48)
+0x0E06ACE8 (size 84)
+0x0E06AD3C (size 72)
+0x0E06AD84 (size 108)
+0x0E06ADF0 (size 120)
+0x0E06AE68 (size 228)  | DiffByTrack = %d, Tx Power = %d
+
+ ;  true
+
+0x0E06AF4C (size 114)
+0x0E06AFBE (size 278)
+0x0E06B0D4 (size 48)
+0x0E06B1FC (size 64)
+0x0E06B23C (size 556)  | DiffByTrack = %d, Tx Power = %d
+
+ ; DiffByTrack = %d, Tx Power = %d
+
+ ; ter rtw_ap_update_sta_ra_info 
+
+0x0E06B468 (size 80)
+0x0E06B528 (size 78)
+0x0E06B576 (size 38)
+0x0E06B59C (size 564)
+0x0E06B7D0 (size 428)
+0x0E06B97C (size 44)
+0x0E06B9A8 (size 108)
+0x0E06BA74 (size 134)
+0x0E06BAFA (size 186)
+0x0E06BBB4 (size 312)
+0x0E06BCEC (size 128)
+0x0E06BD6C (size 444)  | 0x%0x%0x, networkType:0x%02x
+ ; %02x%02x%02x%02x%02x%02x%02x ; x%0x, networkType:0x%02x
+
+0x0E06BF28 (size 590)
+0x0E06C176 (size 92)
+0x0E06C1D2 (size 92)
+0x0E06C22E (size 314)
+0x0E06C368 (size 192)
+0x0E06C428 (size 40)
+0x0E06C450 (size 40)
+0x0E06C478 (size 420)
+0x0E06C61C (size 68)
+0x0E06C660 (size 44)
+0x0E06C68C (size 212)
+0x0E06C760 (size 172)
+0x0E06C80C (size 180)  | owlan ;  set pattern
+ ; : %s[%d]: AuthKeyMgmt = 0x%x 
+
+0x0E06C8C0 (size 108)
+0x0E06C92C (size 140)
+0x0E06C9B8 (size 212)
+0x0E06CA8C (size 116)  | efuse_set ; mi_ws_handle_handshake_req: %d, %s
+
+0x0E06CB00 (size 34)
+0x0E06CB22 (size 322)
+0x0E06CC64 (size 76)
+0x0E06CCB0 (size 292)
+0x0E06CDD4 (size 188)  | an_ctrl: %s
+ ;  invalid, CRC mismatch: 0x%08X, 0x%08X ;  %s
+
+0x0E06CE90 (size 112)  | wowlan
+0x0E06CF00 (size 164)  | set_encryption
+0x0E06CFA4 (size 240)  | , please reset wifi driver!
+ ; !
+ ; plan(0x%02x) PG(0x%02x) PL(%d)
+
+0x0E06D094 (size 100)
+0x0E06D0F8 (size 44)
+0x0E06D124 (size 48)
+0x0E06D154 (size 88)  | ICV Eror ; ICV Eror
+0x0E06D1AC (size 92)  | Auth Challenge Fail ; Auth Challenge Fail
+0x0E06D208 (size 52)
+0x0E06D23C (size 78)
+0x0E06D28A (size 494)  | DiffByTrack = %d, Tx Power = %d
+
+ ; ANY
+0x0E06D546 (size 86)
+0x0E06D59C (size 288)
+0x0E06D6BC (size 268)
+0x0E06D7C8 (size 168)
+0x0E06D870 (size 156)
+0x0E06D90C (size 2412)  | ORMAL ; 02X  %02X  %02X  %02X  %02X 
+ ; [Driver]: %s(%p) failed, retry
+
+0x0E06E278 (size 370)
+0x0E06E3EA (size 146)
+0x0E06E47C (size 196)  | 02x:%02x:%02x ; 0x%x ; river: %d
+
+0x0E06E540 (size 752)  | %02x:%02x:%02x:%02x:%02x:%02x ; power level path_A:%d path_B:%d ; ty mode = %s
+ 
+0x0E06E830 (size 5156)  | wx_set_scan ; rtw_wx_set_wap ; !
+
+0x0E06FC54 (size 76)
+0x0E06FCA0 (size 168)  | rtw_check_in_req_state_thread ; rtw_TDMA_change_state_thread ; nge_state_thread
+0x0E06FD48 (size 76)
+0x0E06FD94 (size 60)
+0x0E06FDD0 (size 126)  | Correct Primary40MHz Setting 
+ ; annel %d in Group not found 
+
+0x0E06FE4E (size 438)  | nnel %d in Group not found 
+
+0x0E070004 (size 100)  | L!! REG_AUTO_LLT(0x%X)=%08x
+
+0x0E070140 (size 1324)  | ting 
+ ; t_thread
+0x0E07066C (size 224)
+0x0E07074C (size 104)
+0x0E070D68 (size 240)
+0x0E070E58 (size 326)
+0x0E070F9E (size 464)  | s] 
+Cur Free Heap Size:  %d
+
+0x0E0711BC (size 208)
+0x0E07140A (size 84)
+0x0E07145E (size 278)
+0x0E071574 (size 696)
+0x0E07191C (size 164)
+0x0E071A94 (size 212)
+0x0E071B68 (size 184)
+0x0E071DEC (size 68)
+0x0E072070 (size 152)
+0x0E072108 (size 56)
+0x0E072140 (size 140)
+0x0E0721CC (size 404)  | 0H`l
+0x0E0724D0 (size 96)
+0x0E072530 (size 294)
+0x0E072656 (size 134)
+0x0E0726DC (size 244)
+0x0E0727D0 (size 360)  | pansion
+0x0E072938 (size 520)  | pansion
+0x0E072B40 (size 132)
+0x0E072BC4 (size 176)
+0x0E072C74 (size 976)
+0x0E073044 (size 1084)
+0x0E073480 (size 1312)
+0x0E0739A0 (size 152)
+0x0E073A38 (size 120)
+0x0E073AB0 (size 148)
+0x0E073B44 (size 92)
+0x0E073BA0 (size 168)
+0x0E073C48 (size 204)  | read ; recv_thread ; _tasklet
+0x0E073D14 (size 164)
+0x0E073DB8 (size 180)
+0x0E073E6C (size 404)  | DiffByTrack = %d, Tx Power = %d
+
+ ; DiffByTrack = %d, Tx Power = %d
+
+
+0x0E074000 (size 284)  | DiffByTrack = %d, Tx Power = %d
+
+
+0x0E07411C (size 204)
+0x0E0741E8 (size 84)
+0x0E07423C (size 44)
+0x0E074268 (size 228)
+0x0E07434C (size 160)  | s_reg(0x%x)=0x%x
+
+0x0E0743EC (size 166)
+0x0E074492 (size 72)  | rr: pTxData=0x%x,  Length=%d
+
+0x0E0744DA (size 70)
+0x0E074520 (size 1432)
+0x0E074AB8 (size 760)
+0x0E074DB0 (size 344)
+0x0E074F08 (size 388)
+0x0E07508C (size 56)
+0x0E0750C4 (size 156)
+0x0E075160 (size 400)
+0x0E0752F0 (size 568)
+0x0E075528 (size 72)
+0x0E075570 (size 196)
+0x0E075634 (size 120)  | s: ratio{nhm, clm}={%d, %d}
+
+0x0E0756AC (size 112)
+0x0E07571C (size 112)
+0x0E07578C (size 100)
+0x0E0757F0 (size 96)  | .2d, %.2d, %.2d, %.2d, %.2d]
+0x0E075850 (size 72)
+0x0E075898 (size 100)
+0x0E0758FC (size 164)
+0x0E0759A0 (size 76)
+0x0E0759EC (size 64)
+0x0E075A2C (size 142)
+0x0E075ABA (size 1398)  | ning] %s invalid STA, macid=%d
+ ; _APP WARN]:usb charging start.... ; , macid=%d
+
+0x0E076030 (size 196)  | CLIENT] Use ciphersuite %s
+
+0x0E0760F4 (size 96)
+0x0E076154 (size 144)  |  %.2d, %.2d, %.2d, %.2d, %.2d]
+0x0E0761E4 (size 84)
+0x0E076238 (size 200)
+0x0E076300 (size 248)  | ning] Error C2H ID=%d, len=%d
+ ; wait for ble release wakepin.
+
+ ; wait for ble release wakepin.
+
+
+0x0E0763F8 (size 94)
+0x0E076456 (size 954)
+0x0E076810 (size 192)
+0x0E0768D0 (size 136)
+0x0E0769E2 (size 330)
+0x0E076B2C (size 92)
+0x0E076B88 (size 180)
+0x0E076C3C (size 44)
+0x0E076C68 (size 48)
+0x0E076E16 (size 66)
+0x0E076E58 (size 120)
+0x0E076ED0 (size 436)
+0x0E077084 (size 280)
+0x0E07719C (size 144)  | VHT 3ss 
+0x0E07722C (size 80)
+0x0E077400 (size 1274)
+0x0E0778FA (size 902)
+0x0E077C80 (size 96)
+0x0E077CE0 (size 34)
+0x0E077D02 (size 200)
+0x0E077DCA (size 268)
+0x0E077ED6 (size 454)
+0x0E07809C (size 66)
+0x0E0780DE (size 54)
+0x0E078114 (size 72)
+0x0E07815C (size 64)
+0x0E07819C (size 388)
+0x0E078320 (size 140)
+0x0E0783AC (size 412)  | pportability Init Warning !!!
+
+0x0E078548 (size 284)
+0x0E078664 (size 114)
+0x0E0786D6 (size 130)
+0x0E078758 (size 102)
+0x0E0787BE (size 70)
+0x0E078804 (size 84)
+0x0E078858 (size 68)
+0x0E07889C (size 164)
+0x0E078940 (size 220)
+0x0E078A1C (size 98)
+0x0E078A7E (size 122)
+0x0E078AF8 (size 68)
+0x0E078B3C (size 56)
+0x0E078B74 (size 200)
+0x0E078C3C (size 508)
+0x0E078E38 (size 244)  | _init ; m_cck_pd_th
+0x0E078F2C (size 112)  | _init
+0x0E078F9C (size 376)  | m_set_cckpd_val ; _init
+0x0E079114 (size 200)
+0x0E0791DC (size 520)
+0x0E0793E4 (size 124)
+0x0E079460 (size 168)
+0x0E079508 (size 68)
+0x0E07954C (size 524)
+0x0E079758 (size 180)
+0x0E07980C (size 98)
+0x0E07986E (size 122)
+0x0E0798E8 (size 308)
+0x0E079A1C (size 164)
+0x0E079AC0 (size 216)
+0x0E079B98 (size 100)
+0x0E079BFC (size 112)
+0x0E079C6C (size 54)
+0x0E079CA2 (size 310)  | ning! lv=%d
+ ; ning! lv=%d
+
+0x0E079DD8 (size 132)
+0x0E079E5C (size 80)
+0x0E079EAC (size 80)
+0x0E079EFC (size 52)
+0x0E079F30 (size 284)
+0x0E07A04C (size 72)
+0x0E07A094 (size 156)  | k_type: %d res: %d trycnt: %d
+ ; k_type: %d res: %d trycnt: %d
+
+0x0E07A194 (size 192)
+0x0E07A254 (size 48)
+0x0E07A284 (size 96)
+0x0E07A2E4 (size 44)
+0x0E07A310 (size 1748)  | CAF�\0F������E����
+0x0E07A9E4 (size 64)
+0x0E07AA24 (size 252)  | ! F��p���
+0x0E07AB20 (size 172)
+0x0E07ABCC (size 340)
+0x0E07AD20 (size 460)
+0x0E07AEEC (size 64)
+0x0E07AF2C (size 32)
+0x0E07AF4C (size 156)
+0x0E07AFE8 (size 352)
+0x0E07B148 (size 124)
+0x0E07B1C4 (size 44)
+0x0E07B1F0 (size 580)
+0x0E07B434 (size 220)
+0x0E07B510 (size 356)
+0x0E07B674 (size 384)
+0x0E07B7F4 (size 80)
+0x0E07B844 (size 36)
+0x0E07B868 (size 90)
+0x0E07B8C2 (size 90)
+0x0E07B91C (size 46)
+0x0E07B94A (size 2110)  |  MAC_1C8=%08x, MAC_1CC=%08x
+ ; ed! DLBcnCount:%02x, poll:%08x
+
+0x0E07C188 (size 60)
+0x0E07C1C4 (size 48)
+0x0E07C1F4 (size 48)
+0x0E07C224 (size 44)
+0x0E07C250 (size 100)
+0x0E07C2B4 (size 62)
+0x0E07C2F2 (size 66)
+0x0E07C334 (size 62)
+0x0E07C372 (size 40)
+0x0E07C39A (size 76)
+0x0E07C3E6 (size 82)
+0x0E07C438 (size 636)
+0x0E07C6B4 (size 244)
+0x0E07C7A8 (size 32)
+0x0E07C7C8 (size 124)
+0x0E07C844 (size 78)  | ll:%08x
+
+0x0E07C892 (size 106)  |  DLBcnCount:%02x, poll:%08x
+
+0x0E07C8FC (size 348)
+0x0E07CA58 (size 376)  | ? F���p��������0��� Fp�F����pG
+0x0E07CBD0 (size 616)
+0x0E07CE38 (size 172)
+0x0E07CEE4 (size 56)
+0x0E07CF1C (size 312)
+0x0E07D054 (size 392)
+0x0E07D1DC (size 1116)
+0x0E07D638 (size 422)
+0x0E07D7DE (size 306)
+0x0E07D910 (size 408)
+0x0E07DAA8 (size 44)
+0x0E07DAD4 (size 376)
+0x0E07DC4C (size 108)  | DiffByTrack = %d, Tx Power = %d
+
+ ; ble failed
+ ; phy_switch_wireless_band_8721d
+0x0E07DCB8 (size 1040)
+0x0E07E0C8 (size 34)
+0x0E07E0EA (size 32)
+0x0E07E10A (size 286)
+0x0E07E228 (size 76)
+0x0E07E274 (size 980)  | _phydm_switch_band_8721d fail
+ ; ble_scan_duty should be 5~95
+
+0x0E07E648 (size 200)
+0x0E07E710 (size 652)  | vxz|~�������������������������
+0x0E07E99C (size 492)
+0x0E07EB88 (size 68)
+0x0E07EBCC (size 124)  | 8721D[Driver]: coex case: err!
+ ; ]: coex case: err!
+ ; D[Driver]: coex case: err!
+
+0x0E07EC48 (size 1384)  | case: err!
+
+0x0E07F1B0 (size 284)
+0x0E07F2CC (size 324)  | case: err!
+ ; DiffByTrack = %d, Tx Power = %d
+
+
+0x0E07F410 (size 78)
+0x0E07F45E (size 138)
+0x0E07F4E8 (size 216)
+0x0E07F5C0 (size 164)  | ver]: Wrong regulation(%d)!
+ ; rltk_wlan_send
+0x0E07F664 (size 272)  | d)!
+ ; rltk_wlan_send
+0x0E07F774 (size 60)
+0x0E07F874 (size 64)  | pta_init_8721d
+0x0E07F8B4 (size 334)  | : line %d] Error Address 0x%x
+
+0x0E07FA02 (size 476)
+0x0E07FBDE (size 110)
+0x0E07FC4C (size 128)
+0x0E07FCCC (size 184)
+0x0E07FD84 (size 260)
+0x0E07FE88 (size 144)
+0x0E07FF18 (size 236)  |  failed: file "%s", line %d%s%s
+
+0x0E080004 (size 164)
+0x0E0800A8 (size 1000)
+0x0E080490 (size 184)
+0x0E0805D0 (size 464)
+0x0E0807A0 (size 1696)
+0x0E080E40 (size 408)
+0x0E080FD8 (size 764)
+0x0E081B00 (size 448)
+0x0E081F8C (size 60)  | %z8 ;  failed: file "%s", line %d%s%s
+
+0x0E081FC8 (size 52)
+0x0E081FFC (size 36)
+0x0E082020 (size 88)
+0x0E082078 (size 544)
+0x0E082298 (size 1314)
+0x0E0828F0 (size 448)  | ed: file "%s", line %d%s%s
+ ; ed: file "%s", line %d%s%s
+
+0x0E082AB0 (size 770)  | ed: file "%s", line %d%s%s
+
+0x0E082E22 (size 622)
+0x0E083090 (size 34)
+0x0E0830B2 (size 96)
+0x0E083112 (size 100)
+0x0E083176 (size 68)
+0x0E0831BA (size 72)
+0x0E083598 (size 3132)  |            0000000000000000INF ;              0000000000000000Infinity ;    0000000000000000INF
+0x0E0841D4 (size 156)
+0x0E084270 (size 168)
+0x0E084318 (size 56)
+0x0E084350 (size 330)
+0x0E08449A (size 34)
+0x0E0844BC (size 76)
+0x0E084508 (size 4040)  | 0000000000000000INF ;                 0000000000000000INF ;             0000000000000000INF
+0x0E0854D0 (size 352)
+0x0E085630 (size 804)  | BCDEF ; 123456789abcdef ; [^0-9,+-]%n
+0x0E085954 (size 130)
+0x0E0859D6 (size 2106)  | 23456789ABCDEF ; .%hu%n.%hu%n ; u%n:%hu%n:%hu%n
+0x0E086210 (size 108)
+0x0E08627C (size 88)
+0x0E0862D4 (size 204)
+0x0E0863A0 (size 56)
+0x0E0863D8 (size 284)
+0x0E0864F4 (size 2906)  |        0000000000000000Infinity ; ABCDEF ; 9ABCDEF
+0x0E08704E (size 282)
+0x0E087168 (size 92)  | failed: file "%s", line %d%s%s
+
+0x0E0871C4 (size 56)  | failed: file "%s", line %d%s%s
+
+0x0E0871FC (size 236)
+0x0E0872E8 (size 172)  | failed: file "%s", line %d%s%s
+
+0x0E087394 (size 164)
+0x0E087438 (size 40)
+0x0E087460 (size 160)
+0x0E087500 (size 378)
+0x0E08767A (size 666)
+0x0E0879F2 (size 1080)  |    0000000000000000Infinity ;    0000000000000000Infinity ;    0000000000000000Infinity
+0x0E087E72 (size 286)  |    0000000000000000Infinity
+0x0E087F90 (size 128)
+0x0E088010 (size 60)
+0x0E088150 (size 136)  |  failed: file "%s", line %d%s%s
+
+0x0E0881D8 (size 88)
+0x0E088230 (size 200)
+0x0E08835A (size 90)
+0x0E0883B4 (size 122)
+0x0E08842E (size 280)
+0x0E088546 (size 298)
+0x0E088670 (size 128)
+0x0E0886F0 (size 168)
+0x0E0887C6 (size 270)
+0x0E0888D4 (size 156)
+0x0E088970 (size 158)
+0x0E088A0E (size 90)
+0x0E088A68 (size 64)
+0x0E088B18 (size 792)
+0x0E088E30 (size 48)
+0x0E088E60 (size 52)
+0x0E088E94 (size 82)
+0x0E088EE6 (size 134)
+0x0E088F6C (size 42)
+0x0E088F96 (size 84)
+0x0E088FEA (size 82)
+0x0E08903C (size 38)
+0x0E089062 (size 56)
+0x0E08909A (size 44)
+0x0E089128 (size 250)
+0x0E089222 (size 34)
+0x0E089244 (size 74)
+0x0E08928E (size 242)
+0x0E089380 (size 2028)  | 23456789ABCDEF ; 0000000000000000INF
+0x0E089B6C (size 122)
+0x0E089BE6 (size 58)
+0x0E089C20 (size 110)
+0x0E089C8E (size 1822)  |                 0000000000000000
+ ;                 0000000000000000
+
+0x0E08A3AC (size 114)
+0x0E08A41E (size 222)
+0x0E08A4FC (size 188)
+0x0E08A5B8 (size 56)
+0x0E08A5F0 (size 132)
+0x0E08A674 (size 36)
+0x0E08A698 (size 92)
+0x0E08A6F4 (size 36)
+0x0E08A718 (size 140)
+0x0E08A7A4 (size 36)
+0x0E08A7C8 (size 34)
+0x0E08A7EA (size 86)
+0x0E08A840 (size 72)  |  failed: file "%s", line %d%s%s
+
+0x0E08A888 (size 72)  |  failed: file "%s", line %d%s%s
+
+0x0E08A8D0 (size 36)
+0x0E08A954 (size 322)
+0x0E08AA96 (size 34)
+0x0E08AAB8 (size 1604)
+0x0E0BED8C (size 188)
+
+== KM4 SRAM (0x10005000): 601 functions ==
+0x10005040 (size 64)
+0x10005080 (size 104)
+0x100050E8 (size 40)
+0x10005110 (size 496)
+0x10005300 (size 164)
+0x100053A4 (size 56)
+0x100053DC (size 48)
+0x1000540C (size 36)
+0x10005430 (size 36)
+0x10005454 (size 32)
+0x10005474 (size 136)
+0x100054FC (size 132)
+0x10005580 (size 160)
+0x10005620 (size 128)
+0x100056A0 (size 224)
+0x10005780 (size 492)
+0x10005A68 (size 294)
+0x10005B8E (size 1030)
+0x10006194 (size 162)
+0x10006236 (size 56)
+0x1000626E (size 234)
+0x10006358 (size 104)
+0x100063C0 (size 70)
+0x10006406 (size 60)  |  WARN]:ftest_rec_stop
+0x10006442 (size 64)  |  WARN]:ftest_rec_stop
+0x10006482 (size 60)
+0x100064BE (size 44)
+0x100064EA (size 46)
+0x10006518 (size 176)
+0x100065C8 (size 106)
+0x10006632 (size 70)
+0x10006678 (size 198)
+0x1000673E (size 70)  |  WARN]:ftest_rec_stop
+0x10006784 (size 114)
+0x100067F6 (size 62)
+0x10006834 (size 108)
+0x100068A0 (size 140)
+0x1000692C (size 70)
+0x10006972 (size 110)
+0x100069E0 (size 204)
+0x10006AAC (size 472)
+0x10006C84 (size 496)
+0x10006E74 (size 84)
+0x10006EC8 (size 144)
+0x10006F58 (size 84)
+0x10006FAC (size 168)
+0x10007054 (size 128)
+0x100070D4 (size 48)
+0x10007104 (size 184)
+0x100071BC (size 228)
+0x100072A0 (size 200)
+0x10007368 (size 144)
+0x100073F8 (size 218)
+0x100074D2 (size 78)
+0x10007520 (size 252)
+0x1000761C (size 178)
+0x100076CE (size 116)
+0x10007742 (size 90)
+0x1000779C (size 196)
+0x10007860 (size 108)
+0x100078CC (size 128)
+0x1000794C (size 56)
+0x10007984 (size 204)
+0x10007A50 (size 76)
+0x10007A9C (size 388)
+0x10007C20 (size 64)
+0x10007C60 (size 324)  |  00
+0x10007DA4 (size 76)
+0x10007DF0 (size 76)
+0x10007E3C (size 52)  | 56789abcdefghijklmnopqrstuvwxyz
+0x10007E70 (size 34)
+0x10007E92 (size 282)
+0x10007FAC (size 212)
+0x10008080 (size 32)
+0x100080A0 (size 68)
+0x100080E4 (size 48)
+0x10008114 (size 132)
+0x10008198 (size 216)
+0x10008270 (size 196)
+0x10008334 (size 160)
+0x100083D4 (size 216)
+0x100084AC (size 356)
+0x10008610 (size 258)
+0x10008712 (size 56)
+0x1000874A (size 250)
+0x10008844 (size 84)
+0x10008898 (size 92)
+0x100088F4 (size 260)
+0x100089F8 (size 44)
+0x10008A24 (size 92)
+0x10008A80 (size 44)
+0x10008AAC (size 248)
+0x10008BA4 (size 48)
+0x10008BD4 (size 48)
+0x10008C04 (size 48)
+0x10008C34 (size 52)
+0x10008C68 (size 46)
+0x10008C96 (size 48)
+0x10008CC6 (size 50)
+0x10008CF8 (size 36)
+0x10008D1C (size 32)
+0x10008D3C (size 36)
+0x10008D60 (size 32)
+0x10008D80 (size 32)
+0x10008DA0 (size 40)
+0x10008DC8 (size 68)
+0x10008E0C (size 120)  | lete_task(): ptask is NULL!
+
+0x10008E84 (size 40)
+0x10008EAC (size 40)
+0x10008ED4 (size 56)
+0x10008F0C (size 40)
+0x10008F34 (size 40)
+0x10008F5C (size 40)
+0x10008F84 (size 52)
+0x10008FB8 (size 84)  | ical_mutex ; te Task "%s" Failed! ret=%d
+
+0x1000900C (size 52)  | _freertos_enter_critical_mutex ; te Task "%s" Failed! ret=%d
+
+0x10009040 (size 58)  | get
+0x1000907A (size 34)
+0x1000909C (size 32)
+0x100090BC (size 56)
+0x100090F4 (size 44)
+0x10009120 (size 108)
+0x100092D4 (size 206)
+0x100093A2 (size 80)
+0x10009488 (size 120)
+0x10009500 (size 188)  |  WARN]:ftest_rec_stop
+0x100095BC (size 64)
+0x100095FC (size 112)
+0x1000966C (size 54)
+0x100096A2 (size 46)
+0x100096D0 (size 108)
+0x1000973C (size 178)
+0x100097EE (size 150)
+0x10009884 (size 106)
+0x100098EE (size 138)
+0x10009978 (size 104)
+0x100099E0 (size 208)
+0x10009AB0 (size 144)
+0x10009B40 (size 184)
+0x10009BF8 (size 228)
+0x10009CDC (size 548)
+0x10009F00 (size 372)  |  WARN]:ftest_rec_stop
+0x1000A0A8 (size 44)
+0x1000A0D4 (size 36)
+0x1000A0F8 (size 120)
+0x1000A170 (size 44)
+0x1000A19C (size 344)
+0x1000A2F4 (size 32)
+0x1000A3DC (size 140)
+0x1000A468 (size 128)
+0x1000A4E8 (size 72)
+0x1000A530 (size 900)
+0x1000A8B4 (size 564)
+0x1000AAE8 (size 32)
+0x1000AB08 (size 156)  | _key_i2c_init  
+ ; rltk_wlan_send ; _key_i2c_init  
+
+0x1000ABA4 (size 104)  | n_recv ;  is DOWN ; realtek/src/osdep/lwip_intf.c
+0x1000AC0C (size 232)
+0x1000ACF4 (size 172)
+0x1000ADA0 (size 264)
+0x1000AEA8 (size 260)
+0x1000AFAC (size 40)
+0x1000AFD4 (size 80)
+0x1000B0A4 (size 34)
+0x1000B0C6 (size 38)
+0x1000B0EC (size 66)
+0x1000B12E (size 48)
+0x1000B15E (size 86)
+0x1000B1B4 (size 112)
+0x1000B224 (size 120)
+0x1000B29C (size 188)
+0x1000B358 (size 368)
+0x1000B4C8 (size 152)
+0x1000B560 (size 112)  |  WARN]:ftest_rec_stop
+0x1000B5D0 (size 52)
+0x1000B604 (size 220)
+0x1000B6E0 (size 142)
+0x1000B76E (size 66)
+0x1000B8F6 (size 66)  |  item: uartburn or N/A 
+		 
+ ; or N/A 
+		 
+
+0x1000B938 (size 44)
+0x1000B964 (size 60)
+0x1000B9A0 (size 44)
+0x1000B9CC (size 44)
+0x1000B9F8 (size 64)
+0x1000BA38 (size 308)
+0x1000C01C (size 118)  | d, current heap free size = %d ; free size = %d
+0x1000C1F4 (size 168)
+0x1000C29C (size 280)
+0x1000C3B4 (size 104)
+0x1000C41C (size 312)
+0x1000C554 (size 118)
+0x1000C5CA (size 134)
+0x1000C650 (size 44)
+0x1000C8B4 (size 180)
+0x1000C968 (size 98)
+0x1000CA50 (size 80)
+0x1000CB34 (size 122)
+0x1000CBAE (size 350)  | vApplicationStackOverflowHook ; [KEY I] _RES6_ADDR error =%d
+
+0x1000CD0C (size 140)
+0x1000CD98 (size 140)
+0x1000CE24 (size 72)
+0x1000CE6C (size 84)
+0x1000CEC0 (size 80)
+0x1000CF10 (size 80)
+0x1000CF60 (size 128)
+0x1000CFE0 (size 120)
+0x1000D058 (size 164)
+0x1000D0FC (size 104)
+0x1000D164 (size 60)
+0x1000D1A0 (size 324)
+0x1000D2E4 (size 36)
+0x1000D308 (size 44)
+0x1000D334 (size 144)
+0x1000D3C4 (size 116)
+0x1000D438 (size 240)
+0x1000D528 (size 324)
+0x1000D66C (size 44)
+0x1000D698 (size 232)
+0x1000D780 (size 108)
+0x1000D7EC (size 52)
+0x1000D820 (size 96)
+0x1000D880 (size 112)
+0x1000D8F0 (size 112)
+0x1000D960 (size 52)
+0x1000D994 (size 88)
+0x1000D9EC (size 80)
+0x1000DA3C (size 44)
+0x1000DA68 (size 38)
+0x1000DA8E (size 50)
+0x1000DAC0 (size 208)
+0x1000DB90 (size 280)
+0x1000DCA8 (size 108)
+0x1000DD14 (size 136)
+0x1000DD9C (size 408)
+0x1000DF34 (size 198)
+0x1000DFFA (size 346)
+0x1000E154 (size 864)
+0x1000E4B4 (size 842)
+0x1000E7FE (size 450)
+0x1000E9C0 (size 148)
+0x1000EA54 (size 240)
+0x1000EB44 (size 190)
+0x1000EC02 (size 114)
+0x1000EC74 (size 590)
+0x1000EEC2 (size 38)
+0x1000EEE8 (size 548)
+0x1000F10C (size 276)
+0x1000F220 (size 150)
+0x1000F2B6 (size 136)
+0x1000F33E (size 34)
+0x1000F360 (size 742)
+0x1000F646 (size 190)
+0x1000F704 (size 192)
+0x1000F7C4 (size 430)
+0x1000F972 (size 120)  |  NOT SO_ERROR(sockets.c:%d)
+
+0x1000F9EA (size 222)
+0x1000FAC8 (size 48)
+0x1000FAF8 (size 38)
+0x1000FB1E (size 38)
+0x1000FB44 (size 76)
+0x1000FB90 (size 56)
+0x1000FBC8 (size 56)
+0x1000FC00 (size 128)
+0x1000FC80 (size 64)
+0x1000FCC0 (size 104)
+0x1000FD28 (size 136)
+0x1000FDB0 (size 120)
+0x1000FE28 (size 120)
+0x1000FEA0 (size 136)
+0x1000FF28 (size 476)
+0x10010104 (size 172)
+0x100101B0 (size 112)
+0x10010220 (size 40)
+0x10010248 (size 42)
+0x10010272 (size 166)
+0x10010318 (size 196)
+0x100103DC (size 120)
+0x10010454 (size 200)
+0x1001051C (size 312)
+0x10010654 (size 240)
+0x10010744 (size 88)
+0x1001079C (size 36)
+0x100107C0 (size 144)
+0x10010850 (size 32)
+0x10010870 (size 40)
+0x10010898 (size 44)
+0x100108C4 (size 148)
+0x10010958 (size 88)
+0x100109B0 (size 60)
+0x100109EC (size 192)
+0x10010AAC (size 150)
+0x10010B42 (size 78)
+0x10010B90 (size 320)
+0x10010CD0 (size 134)
+0x10010D56 (size 112)
+0x10010DC6 (size 82)
+0x10010E18 (size 224)  | wdt_reset ; wdt_reset_now
+0x10010EF8 (size 92)
+0x10010F54 (size 128)
+0x10010FD4 (size 188)
+0x10011090 (size 224)
+0x10011170 (size 156)
+0x1001120C (size 152)  | TIME_WAIT
+0x100112A4 (size 202)  |  WARN]:ftest_rec_stop
+0x1001136E (size 390)
+0x100114F4 (size 64)
+0x10011534 (size 382)
+0x100116B2 (size 40)
+0x100116DA (size 46)
+0x10011708 (size 88)
+0x10011760 (size 864)  | CLOSING
+0x10011AC0 (size 106)
+0x10011B2A (size 110)
+0x10011B98 (size 298)
+0x10011CC2 (size 74)
+0x10011D0C (size 140)
+0x10011D98 (size 332)
+0x10011EE4 (size 382)  | _WAIT
+0x10012062 (size 50)
+0x10012094 (size 112)
+0x10012104 (size 132)
+0x10012188 (size 36)
+0x100121AC (size 108)
+0x10012218 (size 36)
+0x1001223C (size 96)
+0x1001229C (size 180)
+0x10012350 (size 2192)
+0x10012BE0 (size 132)
+0x10012C64 (size 2468)
+0x10013608 (size 92)
+0x10013664 (size 174)
+0x10013712 (size 110)
+0x10013780 (size 1068)
+0x10013BAC (size 176)
+0x10013C5C (size 72)
+0x10013CA4 (size 162)
+0x10013D46 (size 818)
+0x10014078 (size 228)
+0x1001415C (size 94)
+0x100141BA (size 74)
+0x10014204 (size 120)
+0x1001427C (size 240)
+0x1001436C (size 164)
+0x10014410 (size 104)
+0x10014478 (size 80)
+0x100144C8 (size 56)
+0x10014500 (size 52)
+0x10014534 (size 92)
+0x10014590 (size 76)
+0x100145DC (size 32)
+0x100145FC (size 132)
+0x10014680 (size 212)
+0x10014754 (size 56)
+0x1001478C (size 56)
+0x10014828 (size 172)
+0x100148D4 (size 90)
+0x1001492E (size 66)
+0x10014970 (size 60)
+0x100149AC (size 72)
+0x100149F4 (size 88)
+0x10014A4C (size 112)
+0x10014ABC (size 480)
+0x10014C9C (size 56)
+0x10014CD4 (size 44)
+0x10014D00 (size 60)
+0x10014D3C (size 48)
+0x10014D6C (size 88)
+0x10014DC4 (size 372)  |  WARN]:ftest_rec_stop
+0x10015010 (size 256)
+0x10015110 (size 64)
+0x10015150 (size 112)  | N]:ftest_rec_stop
+0x100151C0 (size 176)
+0x10015270 (size 96)
+0x100152D0 (size 36)
+0x100152F4 (size 60)
+0x10015330 (size 632)  | DiffByTrack = %d, Tx Power = %d
+
+ ; pm_set
+0x100155A8 (size 162)  | : disable -----------------
+
+0x1001564A (size 70)  | : disable -----------------
+ ; interrupt_thread
+0x10015690 (size 84)
+0x100156E4 (size 112)
+0x10015754 (size 76)
+0x100157A0 (size 346)
+0x100158FA (size 382)
+0x10015A78 (size 48)
+0x10015AA8 (size 500)
+0x10015C9C (size 336)
+0x10015DEC (size 68)
+0x10015E30 (size 178)
+0x10015EE2 (size 66)
+0x10015F24 (size 98)
+0x10015F86 (size 118)
+0x10015FFC (size 144)
+0x1001608C (size 102)
+0x100160F2 (size 114)
+0x10016164 (size 152)
+0x100161FC (size 132)
+0x10016280 (size 108)
+0x100162EC (size 560)
+0x1001651C (size 476)
+0x100166F8 (size 132)
+0x1001677C (size 244)
+0x10016870 (size 620)
+0x10016ADC (size 312)
+0x10016C14 (size 92)
+0x10016C70 (size 1280)
+0x10017170 (size 32)
+0x10017190 (size 184)  | vframe
+0x10017248 (size 52)
+0x1001727C (size 56)
+0x100172B4 (size 44)
+0x100172E0 (size 172)  | DiffByTrack = %d, Tx Power = %d
+
+ ; KLET
+0x1001738C (size 48)
+0x100173BC (size 44)
+0x100173E8 (size 56)
+0x10017420 (size 48)
+0x10017450 (size 48)
+0x10017480 (size 52)
+0x100174B4 (size 48)
+0x100174E4 (size 56)
+0x1001751C (size 392)
+0x100176A4 (size 164)
+0x10017748 (size 176)
+0x100177F8 (size 72)
+0x10017840 (size 388)
+0x100179C4 (size 344)
+0x10017B1C (size 318)
+0x10017C5A (size 138)
+0x10017CE4 (size 406)
+0x10017E7A (size 670)
+0x10018118 (size 448)  | free_recvframe ; XMIT_TASKLET
+0x100182D8 (size 236)
+0x100183C4 (size 232)
+0x100184AC (size 68)
+0x100184F0 (size 204)
+0x100185BC (size 756)  | _TASKLET ; RTW_XMIT_TASKLET
+0x100188B0 (size 66)
+0x100188F2 (size 174)
+0x100189A0 (size 40)
+0x100189C8 (size 76)
+0x10018A14 (size 112)
+0x10018A84 (size 44)
+0x10018AB0 (size 102)
+0x10018B16 (size 150)
+0x10018BAC (size 48)
+0x10018BDC (size 108)
+0x10018C48 (size 56)  | KLET ; src_hp/mmi_app/mmi_fota_main.c
+0x10018C80 (size 132)
+0x10018D74 (size 314)  | alStatTimer ; ep/freertos/freertos_skbuff.c ; alStatTimer
+0x10018EAE (size 152)
+0x10018F46 (size 94)
+0x10018FA4 (size 64)
+0x10018FE4 (size 160)  | RTW_RECV_TASKLET
+0x10019084 (size 204)  | pm_set
+0x10019150 (size 176)
+0x10019200 (size 616)
+0x10019468 (size 72)
+0x100194B0 (size 90)
+0x1001950A (size 86)
+0x10019560 (size 96)
+0x100195C0 (size 100)  | herdev ; nnel_plan
+0x10019624 (size 212)  | s] Fail to alloc timer_entry ; the timer_entry in timer table
+0x100196F8 (size 96)  | buf ; 
+[%s] Fail to set timer period ; buf
+0x10019758 (size 44)
+0x10019784 (size 34)
+0x100197A6 (size 84)  | s] allocate sizeof_priv failed!
+0x100197FA (size 206)  | imer_wrapper ; the timer_entry in timer table ; imer_wrapper
+0x100198C8 (size 76)
+0x10019914 (size 124)
+0x10019990 (size 32)
+0x100199B0 (size 180)  | apper ; eed to delete %d timer_entry ; apper
+0x10019A64 (size 248)  | s] wlan initialization fail
+ ; 
+[%s] Wait for TX/RX Busy (%d)
+0x10019B5C (size 108)
+0x10019BC8 (size 116)  | _wlan_init ; sy (%d)
+0x10019C3C (size 112)  | _wlan_deinit ; rltk_wlan_send
+0x10019CAC (size 174)  | _wlan_start ; rltk_wlan_send ; _wlan_start
+0x10019D5A (size 114)
+0x10019DCC (size 48)  | MSC_BULK_CMD
+0x10019DFC (size 68)  | MSC_BULK_CMD
+0x10019E40 (size 40)
+0x10019E68 (size 232)  | MSC_BULK_CMD ; _wlan_send_skb ; rltk_wlan_send
+0x10019F50 (size 208)  | _netif_rx ; , rx_bytes=%d, rx_overflow=%d ; _netif_rx
+0x1001A020 (size 52)  | n_control ; rltk_wlan_send
+0x1001A054 (size 104)  | tic ; tic ; rltk_wlan_send
+0x1001A0BC (size 192)  | MSC_BULK_CMD ; ndshake_done ; ndshake_done
+0x1001A17C (size 64)  | _wlan_rf_on ; rltk_wlan_send
+0x1001A1BC (size 196)  | to clone skbbuf
+0x1001A280 (size 52)  | n_rf_off ; s] %s : ioctl[SIOCSIWAP] error
+0x1001A2B4 (size 62)
+0x1001A2F2 (size 116)
+0x1001A366 (size 54)
+0x1001A39C (size 120)
+0x1001A414 (size 60)  | eck_bus ; rltk_wlan_send
+0x1001A450 (size 96)  | rltk_wlan_change_channel_plan ; s value should only be 0 or 1 ; rltk_wlan_change_channel_plan
+0x1001A4B0 (size 130)
+0x1001A532 (size 86)
+0x1001A588 (size 112)
+0x1001A5F8 (size 88)  | MSC_BULK_CMD
+0x1001A650 (size 88)  | MSC_BULK_CMD
+0x1001A6A8 (size 36)
+0x1001A6CC (size 124)
+0x1001A748 (size 96)
+0x1001A7A8 (size 96)
+0x1001A808 (size 96)
+0x1001A868 (size 100)
+0x1001A8CC (size 100)
+0x1001A930 (size 116)
+0x1001A9A4 (size 348)
+0x1001ACBE (size 678)
+0x1001AF64 (size 48)
+0x1001AF94 (size 956)
+0x1001B350 (size 72)
+0x1001B398 (size 184)
+0x1001B450 (size 180)
+0x1001B504 (size 388)
+0x1001B688 (size 794)
+0x1001B9A2 (size 46)
+0x1001B9D0 (size 132)  | init_8721d
+0x1001BA54 (size 48)
+0x1001BA84 (size 264)
+0x1001BB8C (size 58)
+0x1001BBC6 (size 350)
+0x1001BE94 (size 296)  |  Xcap: {100}
+ ; N]:Recording lock file created: %s ; RRUPT_THREAD
+0x1001BFBC (size 64)
+0x1001BFFC (size 1056)
+0x1001C41C (size 94)
+0x1001C47A (size 198)
+0x1001C540 (size 152)
+0x1001C5D8 (size 64)
+0x1001C6DC (size 80)
+0x1001C72C (size 134)
+0x1001C7B2 (size 166)
+0x1001C858 (size 224)
+0x1001C938 (size 232)
+0x1001CA20 (size 646)
+0x1001CCA6 (size 110)
+0x1001CD14 (size 420)
+0x1001CEB8 (size 116)
+0x1001CF2C (size 220)
+0x1001D008 (size 708)  |  Xcap: {100}
+ ; p: {100}
+ ; N]:Recording lock file created: %s
+0x1001D376 (size 544)  | Aux
+ ; Aux
+
+0x1001D682 (size 382)
+0x1001D800 (size 200)
+0x1001D8C8 (size 84)
+0x1001D91C (size 632)
+0x1001DB94 (size 220)
+0x1001DC70 (size 448)
+0x1001DE30 (size 188)
+0x1001DEEC (size 1652)  | , RxRate = 0x%x match_bssid=%d
+ ; sid=%d
+ ; =%d, MP_gain_idx=%d, pwdb=%d
+
+0x1001E640 (size 484)
+0x1001E824 (size 524)
+0x1001EBAC (size 288)
+0x1001ECCC (size 88)
+0x1001ED24 (size 368)
+0x1001EE94 (size 100)
+0x1001EEF8 (size 80)
+0x1001EF48 (size 58)
+0x1001EF82 (size 38)
+0x1001EFA8 (size 164)
+0x1001F04C (size 176)
+0x1001F0FC (size 80)
+0x1001F14C (size 608)
+0x1001F3AC (size 60)
+0x1001F3E8 (size 162)
+0x1001F48A (size 646)
+0x1001F710 (size 248)
+0x1001F808 (size 60)
+0x1001F844 (size 312)
+0x1001F97C (size 3984)  | F0!��u�4��x0F��Q��B��p�H0)����	P
